@@ -3,75 +3,84 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Punto 4</title>
+    <title>home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+
 </head>
 <body>
+
     <!--ENCABEZADO-->
-    <header id="encabezado_de_la_pagina">
-        <div id="logo">
+    <header id="header">
+
+        <div id="div_logo_header"> <!-- Es necesario el div en este caso? se podria utilizar otra etiqueta? --> 
             <a href="home.html">
                 <img src="Images/home/logo_clinica_medica.webp" alt="logo_clinica_medica" src/>
             </a>
         </div>
-        <nav id="menu_de_enlaces">
-            <ul class="menu">
-                <li class="elemento_menu">
+
+        <nav id="nav_menu_header">
+            <ul id="lista_enlaces_header">
+                <li class="enlace_pagina">
                     <a href="institucional.html">Institucional</a>
                 </li>
-                <li class="elemento_menu">
+                <li class="enlace_pagina">
                     <a href="portal.html">Portal del paciente</a>
                 </li>
-                <li class="elemento_menu">
+                <li class="enlace_pagina">
                     <a href="obras_sociales.html">Obras sociales</a>
                 </li>
-                <li class="elemento_menu">
+                <li class="enlace_pagina">
                     <a href="profesionales.html">Profesionales</a>
                 </li>
-                <li class="elemento_menu">
+                <li class="enlace_pagina">
                     <a href="portal.html">Contacto</a>
                 </li>
-              </ul>
+            </ul>
         </nav>
-        <section class="contacto_encabezado">
-            <ul class="">
-                <li class="elemento_contacto">
+
+        <section id="seccion_contactos_header">
+            <ul id="lista_enlaces_contactos_header">
+                <li class="enlace_contacto_header">
                     <a href="">
                         <img src="Images/home/logo_whatsapp.webp" alt="logo_whatsapp"/>
                     </a>
                 </li>
-                <li class="elemento_contacto">
+                <li class="enlace_contacto_header">
                     <a href="">
                         <img src="Images/home/logo_facebook.webp" alt="logo_facebook"/>
                     </a>
                 </li>
-                <li class="elemento_contacto">
+                <li class="enlace_contacto_header">
                     <a href="">
                         <img src="Images/home/logo_twitter.webp" alt="logo_twitter"/>
                     </a>  
                 </li>
-                <li class="elemento_contacto">
+                <li class="enlace_contacto_header">
                     <a href="">
                         <img src="Images/home/logo_instagram.webp" alt="logo_instagram"/>
                     </a>
                 </li>
-                <li>
+                <li class="enlace_contacto_header">
                     <a href="">
-                        <h3> email@clinica.com </h3>
+                        <h3> email@clinica.com </h3> <!-- ver si es la mejor solucion -->
                     </a>
                 </li>
-                <li>
-                    <h3>teléfonos: 011-15XXXXXX</h3>
+                <li class="enlace_contacto_header">
+                    <h3>teléfonos: 011-15XXXXXX</h3> <!-- ver si es la mejor solucion -->
                 </li>
             </ul>
         </section>
+
     </header>
-    <!--MAIN?-->
-    <main id="centro_de_la_pagina">
-        <section class="solicitar_turno">
-            <button id="boton_solitar_turno" >
+
+    <!--SECCION PRINCIPAL-->
+    <main id="main">
+
+        <section id="seccion_solicitar_turno">
+            <button id="boton_solicitar_turno" > <!-- ver si es la mejor solucion -->
                 <a href="portal.html">
                     <h4>
                        SOLICITAR TURNO 
@@ -79,94 +88,99 @@
                 </a>
             </button>
         </section>
-        <section class="carrusel">
-            <header class="titulo_carrusel1">
+
+        <section class="carrousel_main">
+            <header id="titulo_carrousel1">
                 Por que elegirnos? 
             </header>
-            <ul>
-                <li class="contenedor_de_articulo">
+            <ul class="lista_noticias_carrousel">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
-                <li class="contenedor_de_articulo">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
-                <li class="contenedor_de_articulo">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
             </ul>
         </section>
-        <section class="carrusel">
-            <header class="titulo_carrusel2">
+
+        <section class="carrousel_main">
+            <header id="titulo_carrousel2">
                 Noticias
             </header>
-            <ul>
-                <li class="contenedor_de_articulo">
+            <ul class="lista_noticias_carrousel">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
-                <li class="contenedor_de_articulo">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
-                <li class="contenedor_de_articulo">
+                <li class="noticia_carrousel">
                     <article class="articulo_de_carrusel">
 
                     </article>
                 </li>
             </ul>
         </section>
-        <section class="logos_obras_sociales">   
-            <header class="titulo_sección obras_sociales">
+
+        <section class="seccion_obras_sociales">   
+            <header class="titulo_seccion_obras_sociales">
                 Obras sociales
             </header>
-            <ul class="">
-                <li>
-                    <img src="Images/home/logo_galeno.jpg" alt="">
+            <ul class="enlaces_obras_sociales">
+                <li class="enlace_obra_social">
+                    <img src="Images/home/logo_galeno.jpg" alt=""> <!-- ver si van a ser enlaces -->
                 </li>
                 <li>
                     <img src="Images/home/logo_ioma.webp" alt="">
-                </li>
+                </li class="enlace_obra_social">
                 <li>
                     <img src="Images/home/logo_osfatun.jpg" alt="">
                 </li>
-                <li>
+                <li class="enlace_obra_social">
                     <img src="Images/home/logo_osde.webp" alt="">
                 </li>
             </ul>
         </section>
     </main>   
+
     <!--PIE DE PAGINA-->
-    <footer id="pie_de_pagina">
-        <section id="contacto_pie_de_pagina">
-            <address>número de teléfono</address>
+    <footer id="footer">
+        <section id="seccion_contactos_footer">
+            <address>número de teléfono</address> <!-- Ver si es la mejor opcion -->
             <address>mail</address>
             <address>dirección</address>
             <address>redes sociales</address>
         </section>
-        <section id="sponsors">
-            <ol>
-                <li class="sponsor">
-                    <img src="Images/home/logo_bayer.webp" alt="">
+        <section id="enlaces_sponsors_footer">
+            <ul id="lista_enlaces_sponsors">
+                <li class="enlace_sponsor">
+                    <img src="Images/home/logo_bayer.webp" alt=""> <!-- Ver -->
                 </li>
-                <li class="sponsor">
+                <li class="enlace_sponsor">
                     <img src="Images/home/logo_pfizer.webp" alt="">
                 </li>
-                <li class="sponsor">
+                <li class="enlace_sponsor">
                     <img src="Images/home/logo_anmat.webp" alt="">
                 </li>
-            </ol>
+            </ul>
         </section>
-        <section id="ubicacion">
-            <img src="Images/home/ubicacion_del_establecimiento.webp" alt="ubicacion_del_establecimiento">
+        <section id="seccio_ubicacion_footer">
+            <img src="Images/home/ubicacion_del_establecimiento.webp" alt="ubicacion_del_establecimiento"> <!-- Ver -->
         </section>
     </footer> 
+
 </body>
 </html>
