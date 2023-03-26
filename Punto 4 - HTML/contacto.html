@@ -1,35 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
 </head>
 <body>
-    <header id="encabezado_de_la_pagina">
-        <div id="logo">
-            <img src="Images/home/logo_clinica_medica.webp" alt="logo_clinica_medica"/>
+
+    <header class="header">
+
+        <div class="div_logo_header">
+            <a href="home.html">
+                <img src="" alt="" src/>
+            </a>
         </div>
-        <nav id="menu_de_enlaces">
-            <ul class="menu">
-                <li class="elemento_menu">
-                    <a href="institucional.html">Institucional</a>
+
+        <button class="boton_volver_home">
+            <a href="home.html">
+                <img src="" alt="" src/>
+            </a>
+        </button>
+
+        <nav class="nav_menu_header">
+            
+            <ul class="lista_enlaces_header">
+                <li class="enlace_pagina">
+                    <a href="institucional.html">
+                        Institucional
+                    </a>
                 </li>
-                <li class="elemento_menu">
-                    <a href="portal.html">Portal del paciente</a>
+                <li class="enlace_pagina">
+                    <a href="portal.html">
+                        Portal del paciente
+                    </a>
                 </li>
-                <li class="elemento_menu">
-                    <a href="obras_sociales.html">Obras sociales</a>
+                <li class="enlace_pagina">
+                    <a href="obras_sociales.html">
+                        Obras sociales
+                    </a>
                 </li>
-                <li class="elemento_menu">
-                    <a href="profesionales.html">Profesionales</a>
+                <li class="enlace_pagina">
+                    <a href="profesionales.html">
+                        Profesionales
+                    </a>
                 </li>
-                <li class="elemento_menu">
-                    <a href="contacto.html">Contacto</a>
+                <li class="enlace_pagina">
+                    <a href="portal.html">
+                        Contacto
+                    </a>
                 </li>
-              </ul>
+            </ul>
+
         </nav>
+
+        <section class="seccion_contactos_header">
+
+            <ul class="lista_enlaces_contactos_header">
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt=""/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt=""/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt=""/>
+                    </a>  
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt=""/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        email@clinica.com
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    teléfonos: 011-15XXXXXX
+                </li>
+            </ul>
+
+        </section>
+
     </header>
+
+    <main class="main">
+
+        <header class="titulo_principal">
+            <H1>
+                Contacto
+            </H1>
+        </header>
+
+        <section class="seccion_formulario_main">
+
+            <p>
+                Para comunicarse con la clinica por email, a continuacion complete el siguiente formulario:
+            </p>
+
+            <form action="">
+
+                <label for="">Nombre y apellido</label>
+                <input type="text" value=""/>
+
+                <label for="">Email de contacto</label>
+                <input type="email" value="ejemplo@email.com"/>
+
+                <label for="">Telefono</label>
+                <input type="tel" value="nombre y apellido"/>
+
+                <label for="">Asunto</label>
+                <input type="text" value=""/>
+
+                <label for="">Mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="10">
+
+                </textarea>
+
+                <input type="reset" value="limpiar pantalla">
+                <input type="submit" value="enviar mensaje">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="enlaces_sponsors_footer">
+
+            <ul class="lista_enlaces_sponsors">
+                <li class="enlace_sponsor">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li class="enlace_sponsor">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                </li>
+                <li class="enlace_sponsor">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="seccion_contactos_footer">
+
+            <address>número de teléfono</address> 
+            <address>mail</address> <!-- Ver si es la mejor opcion -->
+            <address>dirección</address>
+
+            <ul class="lista_enlaces_redes_sociales">
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+    </footer> 
+
 </body>
 </html>
