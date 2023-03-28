@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos personales</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="div_logo_header"> 
+            <a href="../home.html">
+                <img src="" alt="logo_de_la_clinica" src/>
+            </a>
+        </div>
+
+        <button class="boton_volver_institucional">
+            <a href="../home.html">
+                <img src="" alt="volver_a_inicio" src/>
+            </a>
+        </button>
+
+        <nav class="nav_menu_header">
+
+            <ul class="lista_enlaces_header">
+                <li class="enlace_pagina">
+                    <a href="institucional/institucional.html">
+                        Institucional
+                    </a>
+                </li>
+                <li class="enlace_pagina">
+                    <a href="portal/portal.html">
+                        Portal del paciente
+                    </a>
+                </li>
+                <li class="enlace_pagina">
+                    <a href="obras_sociales.html">
+                        Obras sociales
+                    </a>
+                </li>
+                <li class="enlace_pagina">
+                    <a href="profesionales.html">
+                        Profesionales
+                    </a>
+                </li>
+                <li class="enlace_pagina">
+                    <a href="contacto.html">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <section class="seccion_contactos_header">
+
+            <ul class="lista_enlaces_contactos_header">
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt="logo_facebook"/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt="logo_twitter"/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt="logo_instagram"/>
+                    </a>  
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="">
+                        <img src="" alt="logo_youtube"/>
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="mailto:clinica@email.com">
+                        clinica@email.com
+                    </a>
+                </li>
+                <li class="enlace_contacto_header">
+                    <a href="tel:011-15XXXXXX">
+                        011-15XXXXXX
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+    </header>
+
+    <main class="main">
+
+        <h1 class="titulo_principal_main">
+            Portal del paciente
+        </h1>
+
+        <section class="seccion_ingresar_portal_main">
+
+            <h2 class="titulo_crear_cuenta">
+                Crear cuenta
+            </h2>            
+
+            <section class="seccion_datos_personales">
+
+                <h3 class="titulo_datos_personales">
+                    Datos personales
+                </h3> 
+
+                <form action="">
+
+                    <label for="input_nombre" required="true">Nombre</label>
+                    <input type="text" name="input_nombre">
+    
+                    <br>
+    
+                    <label for="input_apellido" required="true">Apellido</label>
+                    <input type="text" name="input_apellido">
+    
+                    <br>
+    
+                    <label for="select_tipo_documento input_documento" required="true">Documento</label>
+
+                    <select name="select_tipo_documento" id="">
+                        <option value="">Documento Nacional de Identidad</option>
+                        <option value="">Cedula de identidad</option>
+                        <option value="">CUIT/CUIL</option>
+                        <option value="">Libreta Civica</option>
+                        <option value="">Pasaporte</option>
+                    </select>
+
+                    <input type="number" name="input_documento">
+    
+                    <br>
+                    
+                    <label for="input_fecha_nacimiento" required="true">Fecha de nacimiento</label>
+                    <input type="date" name="input_fecha_nacimiento">
+        
+                    <br>
+    
+                    <label for="input_caracteristica input_telefono">Telefono</label>
+                    
+                    <input type="number" name="input_caracteristica">
+    
+                    <input type="number" name="input_telefono">
+    
+                    <br>
+    
+                    <label for="input_obra_social" required="true">Obra social</label>
+                    <input type="text" name="input_obra_social"> <!-- faltan opciones -->
+    
+                    <label for="input_afiliado" required="true">Nº afiliado</label>
+                    <input type="number" name="input_afiliado">
+    
+                    <br>
+    
+                    <button>
+                        <a href="ingresar.html">
+                            Volver
+                        </a>
+                    </button>
+    
+                    <button>
+                        <a href="domicilio.html">
+                            Siguiente
+                        </a>
+                    </button>
+    
+                    <br>
+                    
+                    <progress value="30" max="90"></progress>
+    
+                </form>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="seccion_contactos_footer">
+
+            <header class="header_seccion_contactos_footer">
+                <h4>
+                    Contactos
+                </h4>
+            </header>
+            
+            <ul class="lista_enlaces_contactos">
+                <li class="enlace_contacto">
+                    <a href="mailto:clinica@email.com">
+                        clinica@email.com
+                    </a>
+                </li>
+                <li class="enlace_contacto">
+                    <a href="tel:011-15XXXXXX">
+                        011-15XXXXXX
+                    </a>
+                </li>
+                <li class="enlace_contacto">
+                    <address>
+                        dirección
+                    </address>
+                </li>
+            </ul>
+
+            <ul class="lista_enlaces_redes_sociales">
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="logo_facebook">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="logo_twitter">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="logo_instagram">
+                    </a>
+                </li>
+                <li class="enlace_red_social">
+                    <a href="">
+                        <img src="" alt="logo_youtube">
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="enlaces_sponsors_footer">
+
+            <header class="header_seccion_sponsors_footer">
+                <h4>
+                    Sponsors
+                </h4>
+            </header>
+
+            <ul class="lista_enlaces_sponsors">
+                <li class="enlace_sponsor">
+                    <a href="">
+                        <img src="" alt="logo_sponsor">
+                    </a>
+                </li>
+                <li class="enlace_sponsor">
+                    <a href="">
+                        <img src="" alt="logo_sponsor">
+                    </a>
+                </li>
+                <li class="enlace_sponsor">
+                    <a href="">
+                        <img src="" alt="logo_sponsor">
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+    </footer> 
+
+</body>
+</html>
