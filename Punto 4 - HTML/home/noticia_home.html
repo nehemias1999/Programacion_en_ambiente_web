@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Noticia del mes</title>
 
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -15,8 +15,14 @@
 
     <header class="header">
 
+        <button class="boton_volver_home">
+            <a href="home.html">
+                <img src="" alt="volver_a_home" src/>
+            </a>
+        </button>
+
         <div class="div_logo_header"> 
-            <a href="home/home.html">
+            <a href="home.html">
                 <img src="" alt="logo_de_la_clinica" src/>
             </a>
         </div>
@@ -25,27 +31,27 @@
 
             <ul class="lista_enlaces_header">
                 <li class="enlace_pagina">
-                    <a href="institucional/institucional.html">
+                    <a href="../institucional/institucional.html">
                         Institucional
                     </a>
                 </li>
                 <li class="enlace_pagina">
-                    <a href="portal del paciente/ingresar.html">
+                    <a href="../portal del paciente/ingresar.html">
                         Portal del paciente
                     </a>
                 </li>
                 <li class="enlace_pagina">
-                    <a href="obras_sociales.html">
+                    <a href="../obras_sociales.html">
                         Obras sociales
                     </a>
                 </li>
                 <li class="enlace_pagina">
-                    <a href="profesionales.html">
+                    <a href="../profesionales.html">
                         Profesionales
                     </a>
                 </li>
                 <li class="enlace_pagina">
-                    <a href="contacto.html">
+                    <a href="../contacto.html">
                         Contacto
                     </a>
                 </li>
@@ -94,51 +100,41 @@
 
     <main class="main">
 
-        <header class="titulo_principal">
-            <H1>
-                Contacto
-            </H1>
-        </header>
+        <button class="boton_solicitar_turno" >
+            <a href="portal/portal.html">
+                <h2>
+                    Solicitar turno
+                </h2>
+            </a>
+        </button>
 
-        <section class="seccion_formulario_main">
+        <section class="seccion_noticia_main">
 
-            <p>
-                Para comunicarse con la clinica por email, a continuacion complete el siguiente formulario:
-            </p>
+            <header class="titulo_principal">
+                <h1>
+                    Noticia del mes
+                </h1>
 
-            <form action="">
+                <p>
+                    dd/mm/aa
+                </p>
+            </header>
 
-                <label for="input_nombre_apellido">Nombre y apellido</label>
-                <input type="text" value="" name="input_nombre_apellido"/>
+            <article class="articulo_noticia">
 
-                <br>
+                <h2>
+                    Titulo noticia
+                </h2>
 
-                <label for="input_email">Email de contacto</label>
-                <input type="email" value="" name="input_email"/>
+                <p class="parrafo_principal">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis ab minus 
+                    nobis non iste optio rerum rem? Itaque, adipisci laborum maxime debitis consequatur
+                    rem expedita numquam ipsam veniam provident at.
+                </p>
 
-                <label for="">Telefono</label>
-                <input type="tel" value=""/>
+                <img src="" alt="imagen_noticia">
 
-                <br>
-                
-                <label for="input_asunto">Asunto</label>
-                <input type="text" value="" name="input_asunto"/>
-
-                <br>
-
-                <label for="textarea_mensaje">Mensaje</label>
-                <br>
-                <textarea name="mensaje" id="textarea_mensaje" cols="30" rows="10"></textarea>
-
-                <br>
-
-                <button type="reset">
-                    <img src="" alt="">
-                </button>
-
-                <input type="submit" value="enviar mensaje">
-
-            </form>
+            </article>
 
         </section>
 
@@ -225,7 +221,7 @@
 
         </section>
 
-    </footer>
+    </footer> 
 
 </body>
 </html>
