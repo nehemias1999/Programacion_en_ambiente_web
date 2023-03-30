@@ -6,7 +6,9 @@ A lo largo de todos los Trabajos Prácticos de esta cursada de PAW se construir�
 El proyecto que les proponemos es la Web de una institución de atención de Salud, que permite a los pacientes conocer las especialidades del lugar y solicitar turnos. Para entender a qué nos referimos, podemos remitir algunas instituciones que cumplen tareas similares y podríamos considerar como competencia hipotética:
 
   https://www.hospitalaustral.edu.ar
+  
   https://www.swissmedical.com.ar/clinewsite/arcos/
+  
   https://www.sg.com.ar/sitio/index.php
   
 Son solo algunos ejemplos que se nos ocurrieron a nosotros, quedando a criterio del equipo de desarrollo el estudio ampliado a otras instituciones similares que consideren que tengan sitios webs interesantes de analizar para la asignatura.
