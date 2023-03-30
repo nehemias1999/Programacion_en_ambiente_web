@@ -1,5 +1,5 @@
 
-## Introducción
+# Introducción
 
 A lo largo de todos los Trabajos Prácticos de esta cursada de PAW se construirá de forma incremental un mismo proyecto. Para cada TP, se tomará lo realizado en el TP inmediatamente anterior y se aplicaran los nuevos enunciados (a excepción de este primer TP, el cual será arrancado de cero).
 
@@ -15,11 +15,11 @@ Recuerde que al no haber requisitos de cliente real, se tiene la flexibilidad de
 
 Recuerde que para la elaboración y entrega, existe una guía de presentación de TPs.
 
-# Estructura del Sitio - Análisis de la competencia
+## Estructura del Sitio - Análisis de la competencia
 
 Realizar un SiteMap del Sitio, planteando la jerarquía de las secciones y las páginas. El sitio debe constar de al menos 7 secciones, entre las que se encuentren: La Página inicial o Home, Sección institucional (misión, valores, directorio), listado de turnos solicitados (con posibilidades de filtro de resultados), Formulario de solicitud de turno nuevo, noticias de la institución y médicas, obras sociales, especialidades y profesionales.
 
-# Análisis y Maquetado de Wireframes
+## Análisis y Maquetado de Wireframes
 
 Realizar, utilizando la herramienta Figma, los Wireframes de las secciones planteadas en el punto anterior.
 
@@ -36,6 +36,6 @@ El wireframe correspondiente al formulario de solicitud de turno deberá contar 
   Hora del Turno
   2 botones: Solicitar y Limpiar.
 
-# Del Wireframe al HTML 
+## Del Wireframe al HTML 
 
 Realice la maquetación de todos los wireframes. Refleje en cada sección los tags HTML que mejor consideren que se adapta al contenido de la página a mostrar. En el caso del formulario, utilice los tags HTML y atributos que considere que mejor se adapten al tipo de dato del campo, para facilitar la validación.
