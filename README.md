@@ -30,12 +30,19 @@ En dicha plataforma se debe generar un nuevo proyecto (design file) y compartirl
 El wireframe correspondiente al formulario de solicitud de turno deberá contar con los siguiente campos:
 
   Apellido y Nombre del Paciente
+  
   Correo Electrónico
+  
   Teléfono Celular
+  
   Fecha de Nacimiento
+  
   Edad
+  
   Fecha del Turno
+  
   Hora del Turno
+  
   2 botones: Solicitar y Limpiar.
 
 ## Del Wireframe al HTML 
