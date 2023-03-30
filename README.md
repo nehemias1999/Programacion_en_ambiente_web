@@ -39,3 +39,7 @@ El wireframe correspondiente al formulario de solicitud de turno deberá contar 
 ## Del Wireframe al HTML 
 
 Realice la maquetación de todos los wireframes. Refleje en cada sección los tags HTML que mejor consideren que se adapta al contenido de la página a mostrar. En el caso del formulario, utilice los tags HTML y atributos que considere que mejor se adapten al tipo de dato del campo, para facilitar la validación.
+
+# Aclaraciones
+
+  Tanto el punto 1 como el punto 2 se mostrara el trabajo realizado en un archivo PDF y tambien el enlace a los mismos dentro de la pagina Figma. 
