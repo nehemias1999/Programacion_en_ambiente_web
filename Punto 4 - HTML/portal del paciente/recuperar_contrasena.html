@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingresar</title>
+    <title>Recuperar contrasena</title>
 
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -98,7 +98,7 @@
             Portal del paciente
         </h1>
 
-        <section class="seccion_ingresar_portal_main">
+        <section class="seccion_recuperar_contrasena_main">
 
             <form action="">
 
@@ -115,32 +115,27 @@
 
                 <br>
 
-                <label for="input_password">Contrasena</label>
-                <input type="password" name="input_password">
+                <label for="input_email_recuperacion">Email de recuperacion</label>
+                <input type="email" name="input_email_recuperacion">
 
                 <br>
 
-                <a href="recuperar_contrasena.html">Olvide la contrasena</a>
+                <div class="div_mensaje_aviso">
 
-                <br>
+                    <img src="" alt="imagen_aviso">
 
-                <a href="crear cuenta/datos_personales.html">Crear cuenta</a>
-
-                <br>
-
-                <a class="boton_crear_cuenta_google" href="https://www.google.com/">
-
-                    <img src="" alt="imagen_logo_google">
-
-                    <p>
-                        Google
+                    <p class="parrafo_mensaje_aviso">
+                        A continuacion provea una direccion de correo <br>
+                        electronico para otorgarle las indicaciones de recuperacion <br>
+                        de contrasena para su cuenta.
                     </p>
 
-                </a>
+                </div>
 
                 <br>
-
-                <input type="submit" value="iniciar sesion">
+                
+                <input type="submit" value="Recuperar">
+                <input type="button" value="Cancelar">
 
             </form>
 
