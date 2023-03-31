@@ -52,3 +52,5 @@ Realice la maquetación de todos los wireframes. Refleje en cada sección los ta
 # Aclaraciones
 
   Tanto el punto 1 como el punto 2 se mostrara el trabajo realizado en un archivo PDF y tambien el enlace a los mismos dentro de la pagina Figma. 
+  
+  Enlace al proyecto completo: https://www.figma.com/files/project/85429430/Proyecto-TP1-PAW-2023?fuid=1217123341610121881
