@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis datos</title>
+    <title>Mis datos - editar </title>
 
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -68,80 +68,26 @@
 
         </section>
 
-        <section class="seccion_interior_mis_datos">
-
-            <button>
-                <a href="../inicio/mis_datos_editar.html">
-                    <img src="" alt="icono de editar">
-                </a>
-               
-            </button>
-
-            <button>
-                <a href="../inicio/mis_datos_cambio_contraseña.html">
-                    <img src="" alt="icono de cambio de contraseña">
-                    <p> Cambio de contraseña </p>
-                </a>
-               
-            </button>
-            
-            <section class="seccion_izquierda_datos">
-                <ul class="lista_datos_resumen">
-                    <li class="dato_obra">
-                        <p> Obra_social_cuenta </p>
-                    </li>
-                    <li class="dato_numero_afiliado">
-                        <p> Número_afiliado_cuenta </p>
-                    </li>
-                    <li class="dato_documento">
-                        <p> Documento_cuenta </p>
-                    </li>
-                    <li class="dato_tipo">
-                        <p> tipo </p>
-                    </li>
-                    <li class="dato_provincia">
-                        <p> Provincia_cuenta </p>
-                    </li>
-                    <li class="dato_localidad">
-                        <p> Localidad_cuenta </p>
-                    </li>
-                    <li class="dato_calle">
-                        <p> Calle_cuenta </p>
-                    </li>
-                    <li class="dato_numero">
-                        <p> N°_cuenta </p>
-                    </li>
-                    <li class="dato_depto">
-                        <p> Depto_cuenta </p>
-                    </li>
-                </ul>
-            </section>
-
-            <section class="seccion_derecha_datos_fotos">
-                              
-                <section class="seccion_datos_nombre">
-                    <ul class="lista_nombre_email">
-                        <li class="dato_nombre">
-                            <p>Nombre_cuenta</p>
-                        </li>
-                        <li class="dato_apellido">
-                            <p>Apellido_cuenta</p>
-                        </li>
-                        <li class="dato_nacimiento">
-                            <p> Fecha_Nac_cuenta </p>
-                        </li>
-                        <li class="dato_email">
-                            <p> Email_cuenta </p>
-                        </li>
-                        <li class="dato_tel">
-                            <p> Telefono_cuenta </p>
-                        </li>
-                    </ul>
-                </section>
+        <section class="seccion_edicion_datos">
+            <form action="">
                 
-            </section>
-            
+                  <label for="input_contraseña_actual">Ingrese su contraseña actual:</label>
+                  <input type="text" name="input_contraseña_actual">
+    
+                  <label for="input_nueva_contraseña">Nueva contraseña:</label>
+                  <input type="text" name="input_nueva_contraseña">
+    
+                  <label for="input_confirmacion">Confirme contraseña nueva:</label>
+                  <input type="text" name="input_confirmacion">
+    
+                  <input type="reset" value="Cancelar">
+                  <input type="submit" value="Guardar cambios">
+                    
+                 
+            </form>
         </section>
+           
+       
 
     </main>
 
