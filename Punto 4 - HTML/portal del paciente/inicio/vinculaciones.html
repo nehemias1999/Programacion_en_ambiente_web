@@ -66,28 +66,137 @@
     
             </nav>
 
-            <section class="seccion_resultados">
+            <section class="seccion_vinculos">
+    
+                <ul class="lista_vinculos">
+                    <li class="vinculos">
+                        <article>
+                            <div class="div_nombre_vinculo">
+                                <h3>
+                                    Nombre de vinculo
+                                </h3>
+                                <h3>
+                                    Apellido de vinculo
+                                </h3>
+                            </div>
+
+                            <p>
+                                Datos vinculo
+                            </p>
+
+                            <button>
+                                Eliminar
+                            </button>
+                        </article>
+                    </li>
+                </ul>
+    
+            </section>
+
+            <section class="seccion_cargar_vinculos">
                 
-                <header class="titulo_principal">
+                <header class="titulo_agregar_vinculo">
                     <h1>
-                        Vinculaciones
+                        Agregar vinculo
                     </h1>
                 </header>
 
-                <section class="seccion_lista_resultados">
+                <form action="">
+                    <ul class="lista_ingreso_vinculo">
+                        <li class="">
 
-                    <ul class="lista_resultados">
-                        <li class="elemento_resultado">
-                            <article>
-                                <p></p>
+                            <label for="input_obra_social">Obra social</label>
+                            <select name="select_tipo_documento" id="">
+                                <option value="">Medife</option>
+                                <option value="">OSDE</option>
+                                <option value="">IOMA</option>
+                                <option value="">OSFATUN</option>
+                                <option value="">DASMI</option>
+                            </select>
 
-                            </article>
+                            <label for="input_afiliado">Nº afiliado</label>
+                            <input type="text" name="input_afiliado">
+
                         </li>
+                        <li class="">
 
+                            <label for="input_vinculo">Vinculo</label>
+                            <select name="select_vinculo" id="">
+                                <option value="">Hijo/a menor de 18 anos</option>
+                                <option value="">Hijo/a mayor de 18 anos</option>
+                                <option value="">Conyuge</option>
+                            </select>
+
+                        </li>
                     </ul>
+                    <li class="">
 
-                </section>
+                        <label for="input_nombre">Nombre</label>
+                        <input type="text" name="input_nombre">
 
+                    </li>
+                    <li class="">
+
+                        <label for="input_apellido">Apellido</label>
+                        <input type="text" name="input_apellido">
+
+                    </li>
+                    <li class="">
+
+                        <label for="input_fecha_nacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="input_fecha_nacimiento">
+
+                    </li>
+                    <li class="">
+
+                        <label for="select_provincia">Provincia</label>
+                        <select name="select_provincia" id="">
+                            <option value="">Buenos Aires</option>
+                            <option value="">Cordoba</option>
+                            <option value="">Santa Fe</option>
+                        </select>
+
+                    </li>
+                    <li class="">
+
+                        <label for="input_localidad">Localidad</label>
+                        <select name="select_localidad" id="">
+                            <option value="">Ciudad Autonoma de Buenos Aires</option>
+                            <option value="">Lujan</option>
+                            <option value="">General Rodriguez</option>
+                            <option value="">Merlo</option>
+                            <option value="">Pilar</option>
+                        </select>
+
+                    </li>
+                    <li class="">
+
+                        <label for="input_calle">Calle</label>
+                        <input type="text" name="input_calle">
+
+                    </li>
+                    <li class="">
+
+                        <label for="input_calle">Calle</label>
+                        <input type="text" name="input_calle">
+
+                    </li>
+                    <li class="">
+
+                        <label for="input_numero">Nro</label>
+                        <input type="number" name="input_numero">
+
+                        <label for="input_depto">Depto</label>
+                        <input type="text" name="input_depto">
+
+                        <label for="input_piso">Piso</label>
+                        <input type="number" name="input_piso">
+
+                    </li>
+
+                    <input type="button" value="Cancelar">
+                    <input type="submit" value="Agregar vinculo">
+                </form>
             </section>
 
         </section>
