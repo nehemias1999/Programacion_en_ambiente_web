@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis datos - editar </title>
+    <title>Mis datos - modificar contraseña </title>
 
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
@@ -69,22 +69,28 @@
         </section>
 
         <section class="seccion_edicion_datos">
-            <form action="">
-                
+            <h1 class="titulo_principal_edicion_datos">
+                Modificación de contraseña
+            </h1>
+
+            <form action="ProcesarCambioContraseña.js" method="post">
+                <br>
                   <label for="input_contraseña_actual">Ingrese su contraseña actual:</label>
                   <input type="text" name="input_contraseña_actual">
-    
+                
+                <br>
                   <label for="input_nueva_contraseña">Nueva contraseña:</label>
                   <input type="text" name="input_nueva_contraseña">
-    
+                
+                <br>
                   <label for="input_confirmacion">Confirme contraseña nueva:</label>
                   <input type="text" name="input_confirmacion">
-    
+              
+                <br>
                   <input type="reset" value="Cancelar">
                   <input type="submit" value="Guardar cambios">
-                    
-                 
             </form>
+
         </section>
            
        
