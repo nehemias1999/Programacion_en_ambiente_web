@@ -79,20 +79,96 @@ a {
     padding: 15px;
     text-align: center;
     font-size: 1.3em;
+    box-shadow: 0 0 10px rgb(0, 0, 0 / 10%);
 }
 
-.enlace_pagina:hover {
+
+.enlace_pagina:hover{
     box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
+    background-color: rgb(3, 105, 109);
+    color:white;
 }
 
 /* MAIN */
 
+.main_home{
+    background: rgb(76,149,189);
+    background: linear-gradient(90deg, rgba(76,149,189,1) 0%, rgba(168,255,253,1) 50%, rgba(84,213,185,1) 100%); 
+    min-height: 150em;
+    margin-top: 15px;
+}
+
+.boton_solicitar_turno {
+    display:flex;
+    position: absolute;
+    top: 350px;
+    left: 1400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    border:0;
+    background-color: #002FD6;
+    font-size: 25px;
+    font-weight: 800px;
+    padding: 0 5px 0 10px;
+    height: 100px;
+    width: 300px;
+    cursor:pointer;
+  
+}
+
+.boton_solicitar_turno a{
+    color: aliceblue;
+}
+
+.carrousel_imagenes_clinica {
+    position: absolute;
+    top:500px;
+    width:100%;
+    height:550px;
+    margin:auto;
+    background-color: aqua;
+ 
+}
+
+.carrousel_imagenes_clinica > iframe {
+    min-width: 28%;
+    min-height: 64%;
+    position: absolute;
+    left: 650px;
+    
+}
+
+.carrousel_noticias {
+    position: absolute;
+    top:600px;
+    width:100%;
+    height:500px;
+    margin:auto;
+    background-color: aqua;
+ 
+}
+
+.carrousel_obras_sociales{
+    position: absolute;
+    top:1150px;
+    width:100%;
+    height:200px;
+    margin:auto;
+    background-color: aqua;
+}
+
+
 .seccion_ubicacion_main {
-    position: relative;
+    position: absolute;
+    top:2000px;
+    left: 100px;
     width: 90%;
-    height: 200px;
+    height: 400px;
     margin: auto;
-    padding-bottom: 30px;
+  
+    padding-bottom:0px;
+    background-color: aqua;
 }
 
 .seccion_ubicacion_main > iframe {
