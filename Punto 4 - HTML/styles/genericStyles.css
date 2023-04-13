@@ -87,6 +87,46 @@ a {
 
 /* MAIN */
 
+.seccion_carrousel_main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lista_noticias_carrousel {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.noticia_carrousel {
+    position: relative;
+    width: calc(100% / 3);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+    background-color: blueviolet;
+}
+
+.noticia_carrousel > a {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: blue;
+}
+
+.articulo_noticia_carrusel {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: brown;
+}
+
 .seccion_ubicacion_main {
     position: relative;
     width: 90%;
