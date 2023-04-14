@@ -1,0 +1,85 @@
+
+/* GENERAL */
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    position: relative;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+/* MAIN */
+
+.titulo_principal {
+    position: relative;
+    top: 150px;
+    font-size: 4rem;
+}
+
+.seccion_directorio_main {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(238, 241, 239, 1);
+}
+
+.lista_directorio {
+    list-style: none;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.elemento_directorio {
+    min-width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.imagen_directorio {
+    position: relative;
+    width: 150px;
+    height: 100%;
+    background-color: brown;
+}
+
+.div_descripcion_directorio {
+    position: relative;
+    min-width: 340px;
+    height: 100%;
+    background-color: white;
+}
+
+
+.titulo_directorio {
+
+}
+
+.parrafo_introductorio_directorio {
+
+}
+
+@media screen and (min-width: 900px) {
+    
+
+
+}
