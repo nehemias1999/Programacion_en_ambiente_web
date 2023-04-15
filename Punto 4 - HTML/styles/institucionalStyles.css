@@ -1,34 +1,56 @@
 
+/* GENERALES */
+
+/* MOVIL */
+
+.div_principal {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 200px;
+}
+
+.boton_solicitar_turno {
+    position: absolute;
+    top: 100px;
+    right: 20px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 196, 68);
+}
+
 .titulo_principal_main {
     position: absolute;
-    top: 150px;
-    left: 50px;
-    font-size: 5rem;
+    top: 20px;
+    left: 20px;
+    font-size: 60px;
 }
 
 .seccion_mision_main {
     position: relative;
-    width: 95%;
-    height: 300px;
-    margin: auto;
-    margin-bottom: 2em;
-    border: solid 1px #000;
+    top: 0px;
+    left:0px;
+    height: 300px; /* VER */
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
 }
 
 .articulo_mision_main {
+    position: relative;
+    height: 100%;
     min-width: 100%;
-    min-height: 100%;
+    display: flex;
 }
 
 .imagen_mision {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: 0px;
+    left: 0px;
     height: 100%;
+    min-width: 100%;
     object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .div_introduccion_mision {
@@ -37,8 +59,8 @@
     bottom: -1px;
     width: 100%;
     min-height: 100px;
-    border: solid 1px #000;
-    display: block;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -61,12 +83,9 @@
     width: 95%;
     min-height: 300px;
     margin: auto;
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     border: solid 1px #000;
-}
-
-.seccion_valores_main:hover {
-    transform: scale(1.03);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .articulo_valores {
@@ -76,8 +95,8 @@
 
 .imagen_valores {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -92,7 +111,6 @@
     width: 100%;
     min-height: 100px;
     border: solid 1px #000;
-    display: block;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -125,10 +143,7 @@
     grid-column: span 2;
     min-height: 22rem;
     border: solid 1px #000;
-}
-
-.articulo_pagina_interna:hover {
-    transform: scale(1.03);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .imagen_pagina_interna {
@@ -166,20 +181,14 @@
     padding-bottom:  20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
     
-    .titulo_principal_main {
-        position: relative;
-        left: inherit;
-        font-size: 4rem;
-    }
-
     .seccion_valores_main:hover {
-        transform: inherit
+        transform: scale(1.03);
     }
 
     .articulo_pagina_interna:hover {
-        transform: inherit;
+        transform: scale(1.03);
     }
 
 }

@@ -12,30 +12,28 @@ a {
     color: black;
 }
 
+/* MOVIL */
+
 /* VISTA ESCRITORIO */
 
 /* Header */
 
 header {
-    background-color: rgb(2, 82, 85);
+    
     position: relative;
     min-width: 100%;
-    min-height: 135px;
+    min-height: 150px;
     flex-direction: row; 
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .enlace_logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    display: flex;
-}
-
-.enlace_logo:hover {
-    transform: scale(1.1);
+    position: relative;
+    top: 30px;
+    left: 50px;
 }
 
 .imagen_logo {
