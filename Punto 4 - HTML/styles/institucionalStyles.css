@@ -1,19 +1,20 @@
 
 /* GENERALES */
 
-/* MOVIL */
+/* MOBILE */
 
 .div_principal {
     position: relative;
     top: 0px;
     left: 0px;
     width: 100%;
-    min-height: 200px;
+    min-height: 250px;
+    display: flex;
 }
 
 .boton_solicitar_turno {
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 20px; 
     padding: 10px 20px;
     border: none;
@@ -22,10 +23,9 @@
 }
 
 .titulo_principal_main {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 60px;
+    position: relative;
+    margin: 40px auto;
+    font-size: 70px;
 }
 
 .seccion_mision_main {
@@ -59,17 +59,17 @@
     bottom: -1px;
     width: 100%;
     min-height: 100px;
+    display: flex;
+    flex-direction: column;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
 .titulo_mision {
-    font-size: x-large;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .parrafo_introductorio_mision {
@@ -182,7 +182,12 @@
 }
 
 @media screen and (min-width: 900px) {
-    
+
+    .titulo_principal_main {
+        top: 10px;
+        font-size: 100px;
+    }
+
     .seccion_valores_main:hover {
         transform: scale(1.03);
     }
