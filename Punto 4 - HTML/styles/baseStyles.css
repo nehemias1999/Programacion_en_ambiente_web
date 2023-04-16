@@ -11,7 +11,7 @@ a {
     color: black;
 }
 
-/* MOVIL */
+/* MOBILE */
 
 /* Header */
 
@@ -82,6 +82,8 @@ header {
 
 footer {
     position: relative;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
     min-height: 18rem;
     display: flex;
@@ -102,6 +104,8 @@ footer {
 .enlace_contacto_footer {
     width: 80px;
     height: 80px;  
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .imagen_contacto_footer {
@@ -131,6 +135,7 @@ footer {
 }
 
 .parrafo_final_footer {
+    font-size: 15px;
     margin: auto;
 }
 
@@ -224,6 +229,10 @@ footer {
 
     .enlace_logo_footer:hover {
         transform: scale(1.1);
+    }
+
+    .parrafo_final_footer {
+        font-size: 20px;
     }
 
 }

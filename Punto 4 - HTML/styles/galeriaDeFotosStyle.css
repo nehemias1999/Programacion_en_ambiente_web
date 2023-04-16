@@ -98,16 +98,15 @@ p {
     left: -1px;
     bottom: -1px;
     min-width: 100%;
-    min-height: 100px;
+    min-height: 50px;
     display: flex;
-    justify-content: center;
-    align-content: center;
     border: solid 1px #000;
-    background-color: rgba(208, 36, 74, 1);
+    background-color: rgba(208, 36, 74, 0.5); /* Ver transparencia */
 }
 
 .titulo_imagen {
-    font-size: 2rem;
+    font-size: 30px;
+    margin: 5px auto;
 }
 
 @media screen and (min-width: 900px) {
