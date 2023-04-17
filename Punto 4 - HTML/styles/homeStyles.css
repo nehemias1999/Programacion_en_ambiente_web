@@ -1,7 +1,26 @@
 
 /* GENERALES */
 
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+a{
+    font-family: 'Gotham', sans-serif;
+}           
+
+h4{
+    color: rgb(2, 82, 85);
+}
+
+p{
+     color: rgb(2, 82, 85);
+}
+
+
 /* MOBILE */
+/*
+.main_principal{
+    
+}*/
 
 .div_principal_main {
     position: relative;
@@ -37,9 +56,12 @@
 .seccion_carrousel_noticias_main {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    height: 450px;
+    min-height: 600px;
     margin: auto;
-    margin-bottom: 30px;
+    /*margin-bottom:30px*/
+    margin-bottom: 50px;
+    margin-top: 105px;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
 }
@@ -54,6 +76,7 @@
     position: relative;
     top: 0px;
     left: 0px;
+    height: 600px;
     min-height: 100%;
     min-width: 100%;
 }
@@ -66,6 +89,7 @@
     min-height: 100px;
     padding: 0px;
     border-top: solid 1px #000;
+    background:rgba(255,255,255,0.7);
 }
 
 .titulo_noticia_carrousel {
@@ -74,6 +98,7 @@
     margin-left: 30px;
     margin-right: 10px;
     margin-bottom: 10px;
+    
 }
 
 .parrafo_introductorio_noticia_carrousel {
@@ -116,6 +141,7 @@
     width: 100%;
     min-height: 100px;
     border-top: solid 1px #000;
+    background:rgba(255,255,255,0.4);
 }
 
 .titulo_pagina_interna {
@@ -148,6 +174,8 @@
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
+
+   
 
     .titulo_principal_main {
         top: 10px;
