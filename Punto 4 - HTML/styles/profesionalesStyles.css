@@ -1,0 +1,185 @@
+
+/* GENERALES */
+
+/* MOBILE */
+
+.div_principal_main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+}
+
+.boton_solicitar_turno {
+    position: absolute;
+    top: 150px;
+    right: 20px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 196, 68);
+}
+
+.titulo_principal_main {
+    position: relative;
+    margin: 40px auto;
+    font-size: 70px;
+}
+
+.titulo_principal {
+    position: relative;
+    top: 150px;
+    font-size: 4rem;
+}
+
+.seccion_profesionales_main {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: rgba(238, 241, 239, 1);
+}
+
+.div_buscador_profesionales {
+    position: relative;
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    border: solid 1px #000;
+    border-radius: 30px;
+}
+
+.form_buscador_profesionales {
+    position: relative;
+    min-width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_buscador {
+    height: 30px;
+    min-width: 60%;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.selector_filtro_busqueda {
+    height: 30px;
+    width: 75px;
+    margin-right: 5px;
+}
+
+.boton_buscador {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.lista_profesional {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de ancho igual */
+    grid-template-rows: repeat(3, 100px); /* Crear 3 filas de altura 100px */
+    gap: 20px; /* Añadir un espacio de 20px entre las celdas */
+}
+  
+.elemento_profesional {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+.seccion_listado_profesionales {
+    position: relative;
+    height: 490px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.lista_profesionales {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); /* Crear 3 columnas de ancho igual */
+    gap: 10px; /* Añadir un espacio de 20px entre las celdas */
+    list-style: none; /* Eliminar la viñeta de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+    margin: 0; /* Eliminar los márgenes de la lista */
+}
+  
+.elemento_profesional {
+    height: 300px;
+    width: 250px;
+    padding: 0px;
+    border: solid 1px #000;
+    background-color: white;
+}
+
+.articulo_profesional {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: aqua;
+}
+
+.div_imagen_profesional {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rosybrown;
+}
+
+.div_descripcion_profesional {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    
+    height: 50px;
+    min-width: 100%;
+    background-color: blue;
+}
+
+.titulo_profesional {
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.subtitulo_cargo_profesional {
+    font-size: 1rem;
+    margin: 0px auto;
+    margin-bottom: 5px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 900px) {
+
+    .div_buscador_profesionales {
+        height: 70px;
+        width: 60%;
+    }
+
+    .input_buscador {
+        font-size: 20px;
+        height: 40px;
+        min-width: 70%;
+    }
+
+    .selector_filtro_busqueda {
+        font-size: 18px;
+        height: 40px;
+        width: 100px;
+    }
+
+    .boton_buscador {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}

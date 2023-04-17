@@ -6,17 +6,7 @@ body {
     margin: 0px;
 }
 
-main {
-    position: relative;
-}
-
-p {
-    font-size: large;
-}
-
 /* MOBILE */
-
-/* MAIN */
 
 .div_principal_main {
     position: relative;
@@ -118,6 +108,8 @@ p {
     margin: 0px auto;
     margin-bottom: 5px;
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 900px) {
     

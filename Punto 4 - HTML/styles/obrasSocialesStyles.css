@@ -1,0 +1,152 @@
+
+/* GENERALES */
+
+/* MOBILE */
+
+.div_principal_main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+}
+
+.boton_solicitar_turno {
+    position: absolute;
+    top: 150px;
+    right: 20px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(252, 196, 68);
+}
+
+.titulo_principal_main {
+    position: relative;
+    margin: 40px auto;
+    font-size: 70px;
+}
+
+.titulo_principal {
+    position: relative;
+    top: 150px;
+    font-size: 4rem;
+}
+
+.seccion_obras_sociales_main {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: rgba(238, 241, 239, 1);
+}
+
+.div_buscador_obras_sociales {
+    position: relative;
+    height: 50px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    border: solid 1px #000;
+    border-radius: 30px;
+}
+
+.form_buscador_obras_sociales {
+    position: relative;
+    min-width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_buscador {
+    height: 30px;
+    min-width: 90%;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.boton_buscador {
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.seccion_listado_obras_sociales {
+    position: relative;
+    height: 490px;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.lista_obras_sociales {
+    list-style: none;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.elemento_obra_social {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 10px;
+    border: solid 1px #000;
+    background-color: white;
+}
+
+.articulo_obra_social {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.div_imagen_obra_social {
+    display: none;
+}
+
+.div_descripcion_obra_social {
+    position: relative;
+    min-height: 100px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(208, 36, 74, 0.5); /* Ver transparencia */
+}
+
+.titulo_obra_social {
+    font-size: 20px;
+}
+
+.parrafo_descripcion_obra_social {
+    font-size: 15px;
+    margin: 10px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 900px) {
+
+    .div_buscador_obras_sociales {
+        height: 70px;
+        width: 50%;
+    }
+
+    .input_buscador {
+        font-size: 20px;
+        height: 40px;
+        min-width: 70%;
+    }
+
+    .boton_buscador {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+}
