@@ -64,6 +64,7 @@
 }
 
 .input_buscador {
+    font-size: 15px;
     height: 30px;
     min-width: 60%;
     margin-right: 5px;
@@ -71,95 +72,91 @@
 }
 
 .selector_filtro_busqueda {
+    text-align: center;
     height: 30px;
     width: 75px;
     margin-right: 5px;
 }
 
 .boton_buscador {
+    font-size: 15px;
     padding: 5px 20px;
     border-radius: 10px;
 }
 
-.lista_profesional {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de ancho igual */
-    grid-template-rows: repeat(3, 100px); /* Crear 3 filas de altura 100px */
-    gap: 20px; /* Añadir un espacio de 20px entre las celdas */
-}
-  
-.elemento_profesional {
-    background-color: #ccc;
-    padding: 20px;
-}
-
 .seccion_listado_profesionales {
     position: relative;
-    height: 490px;
-    width: 90%;
+    height: 500px;
+    width: 95%;
     margin: 0px auto;
-    padding: 0px;
+    margin-bottom: 20px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
 .lista_profesionales {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); /* Crear 3 columnas de ancho igual */
-    gap: 10px; /* Añadir un espacio de 20px entre las celdas */
-    list-style: none; /* Eliminar la viñeta de la lista */
-    padding: 0; /* Eliminar el relleno de la lista */
-    margin: 0; /* Eliminar los márgenes de la lista */
+    list-style: none;
 }
   
 .elemento_profesional {
-    height: 300px;
-    width: 250px;
+    min-height: 150px;
+    min-width: 100%;
     padding: 0px;
-    border: solid 1px #000;
-    background-color: white;
+    margin-bottom: 20px;
 }
 
 .articulo_profesional {
-    min-width: 100%;
-    min-height: 100%;
-    margin: 0px;
-    padding: 0px;
+    height: 200px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background-color: aqua;
+    justify-content:left;
 }
 
 .div_imagen_profesional {
-    min-height: 100%;
-    min-width: 100%;
-    background-color: rosybrown;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px #000;
+}
+
+.imagen_profesional {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .div_descripcion_profesional {
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    
-    height: 50px;
-    min-width: 100%;
-    background-color: blue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;    
+}
+
+.div_nombre_profesional {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    border: solid 1px #000;
 }
 
 .titulo_profesional {
-    font-size: 20px;
-    margin: 5px auto;
+    margin-left: 20px;
+    padding: 0px;
 }
 
 .subtitulo_cargo_profesional {
-    font-size: 1rem;
-    margin: 0px auto;
-    margin-bottom: 5px;
+    margin-left: 30px;
+    padding: 0px;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
+
+    .boton_solicitar_turno:hover {
+        transform: scale(1.1);
+    }
 
     .div_buscador_profesionales {
         height: 70px;
@@ -181,5 +178,14 @@
     .boton_buscador {
         padding: 10px 20px;
         font-size: 20px;
+    }
+
+    .boton_buscador:hover {
+        transform: scale(1.05);
+    }
+
+    .seccion_listado_profesionales {
+        width: 70%;
+        height: 460px;
     }
 }
