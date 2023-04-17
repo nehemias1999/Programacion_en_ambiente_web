@@ -21,6 +21,9 @@ p{
 
 main{
     background-color: rgb(75, 75, 75, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .div_principal {
@@ -84,8 +87,6 @@ main{
     flex-direction: column;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
-
-   /* border: solid none solid solid 1px #000;*/
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -104,9 +105,8 @@ main{
 
 .seccion_valores_main {
     position: relative;
-    width: 54%;
-    min-height: 100px;
-    margin: auto;
+    width: 95%;
+    min-height: 400px;
     margin-bottom: 20px;
     border: solid 1px #000;
     background-color: rgba(255, 255, 255, 0.7);
@@ -124,17 +124,15 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .div_introduccion_valores {
     position: absolute;
-    left: -1px;
-    bottom: -1px;
-    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    min-width: 100%;
     min-height: 100px;
-    border: solid 1px #000;
+    border-top: solid 1px #000;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -159,14 +157,12 @@ main{
     gap: 1rem;
     grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-   /* margin-bottom: 2em;*/
-   margin-bottom:2em;
+    margin-bottom:2em;
 }
 
 .articulo_pagina_interna {
     position: relative;
     grid-column: span 2;
-   /* min-height: 23rem;*/
     border: solid 1px #000;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -184,12 +180,12 @@ main{
 
 .div_introduccion_pagina_interna {
     position: absolute;
-    left: -1px;
-    bottom: -1px;
+    left: 0px;
+    bottom: 0px;
     width: 100%;
     min-height: 100px;
     background-color: rgba(255, 255, 255, 0.7);
-    border: solid 1px #000;
+    border-top: solid 1px #000;
 }
 
 .titulo_pagina_interna {
@@ -206,7 +202,6 @@ main{
     margin-bottom: 20px;
 }
 
-
 /* DESKTOP */
 
 @media screen and (min-width: 900px) {
@@ -216,15 +211,17 @@ main{
         font-size: 100px;
     }
 
+    .seccion_valores_main {
+        height: 300px;
+        width: 70%;
+    }
+
     .seccion_valores_main:hover {
         transform: scale(1.03);
     }
 
     .articulo_pagina_interna:hover {
         transform: scale(1.03);
-    }
-
-   
-    
+    }   
 
 }
