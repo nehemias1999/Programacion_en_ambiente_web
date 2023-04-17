@@ -12,21 +12,15 @@
     display: flex;
 }
 
-.titulo_principal_main {
-    position: relative;
-    margin: 40px auto;
-    font-size: 70px;
-}
-
 .titulo_principal {
     position: relative;
-    top: 150px;
-    font-size: 4rem;
+    margin: 40px auto;
+    font-size: 50px;
 }
 
-.seccion_contacto_main {
+.seccion_formulario_main {
     position: relative;
-    min-height: 400px;
+    min-height: 300px;
     width: 100%;
     margin-bottom: 20px;
     border-top: solid 1px #000;
@@ -34,20 +28,16 @@
     background-color: rgba(238, 241, 239, 1);
 }
 
-.div_formulario {
+.div_formulario_ingreso {
     position: relative;
-    min-height: 400px;
+    min-height: 300px;
     width: 90%;
     margin: 20px auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
     border: solid 1px #000;
     border-radius: 10px;
-}
-
-p {
-    margin: 20px;
 }
 
 form {
@@ -56,24 +46,33 @@ form {
     justify-content: center;
 }
 
-input {
+.div_ingreso_documento {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input_documento {
     height: 20px;
-    width: 400px;
-    margin-bottom: 10px;
+    width: 210px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
-textarea {
-    width: 400px;
-    margin: 0px auto;
-    margin-bottom: 10px;
-    resize: none;
-}
-
-.boton_reset {
+select {
     font-size: 15px;
-    height: 30px;
-    width: 150px;
-    margin: 0px auto;
+    text-align: center;
+    height: 25px;
+    width: 80px;
+}
+
+.input_contrasena {
+    height: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+form > a {
     margin-bottom: 10px;
 }
 
@@ -81,24 +80,24 @@ textarea {
     font-size: 20px;
     height: 40px;
     width: 200px;
-    margin: 0px auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
 
-    .titulo_principal_main {
+    .titulo_principal {
         top: 10px;
         font-size: 100px;
     }
 
-    .div_formulario {
-        width: 50%;
+    .seccion_formulario_main {
+        min-height: 400px;
     }
 
-    .boton_reset:hover {
-        transform: scale(1.1);
+    .div_formulario_ingreso {
+        min-height: 350px;
+        width: 40%;
     }
 
     .boton_submit:hover {

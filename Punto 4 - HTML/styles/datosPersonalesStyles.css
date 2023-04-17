@@ -1,0 +1,148 @@
+
+/* GENERALES */
+
+/* MOBILE */
+
+.div_principal_main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+}
+
+.titulo_principal {
+    position: relative;
+    margin: 40px auto;
+    font-size: 50px;
+}
+
+.seccion_ingresar_portal_main {
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: rgba(238, 241, 239, 1);
+}
+
+.titulo_crear_cuenta {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.div_formulario_datos_personales {
+    position: relative;
+    min-height: 400px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.titulo_datos_personales {
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_ingreso_documento {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input_documento {
+    height: 20px;
+    width: 260px;
+    margin-right: 10px;
+}
+
+select {
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    width: 80px;
+}
+
+.div_telefono {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input_caracteristica {
+    width: 110px;
+    margin-right: 10px;
+}
+
+.input_telefono {
+    width: 220px;
+}
+
+.select_obra_social {
+    height: 25px;
+    width: 357px;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 20px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.div_botones {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button {
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boton_volver {
+    margin-right: 10px;
+}
+
+progress {
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 900px) {
+
+    .titulo_principal {
+        top: 10px;
+        font-size: 100px;
+    }
+
+    .titulo_crear_cuenta {
+        text-align: center;
+    }
+
+    .div_formulario_datos_personales {
+        width: 50%;
+    }
+
+    button:hover {
+        transform: scale(1.1);
+    }
+
+}

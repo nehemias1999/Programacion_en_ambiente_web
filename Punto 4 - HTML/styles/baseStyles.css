@@ -55,8 +55,6 @@ header {
     
 }
 
-
-
 .enlace_contacto {
     width: 40px;
     height: 40px;
@@ -125,7 +123,6 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 
 .seccion_final_footer p {
@@ -226,13 +223,11 @@ footer {
     .enlace_pagina {
         padding: 15px;
         text-align: center;
-        font-size: 1.11rem; 
-        /*font-size: 1.3rem*/
+        font-size: 1.11rem;
     }
 
     .enlace_pagina:hover {
         transform: scale(1.1);
-        background-color: rgba(208,36,74,20%);
     }
 
     /* Footer */

@@ -1,0 +1,127 @@
+
+/* GENERALES */
+
+/* MOBILE */
+
+.div_principal_main {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+}
+
+.titulo_principal {
+    position: relative;
+    margin: 40px auto;
+    font-size: 50px;
+}
+
+.seccion_recuperar_contrasena_main {
+    position: relative;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    background-color: rgba(238, 241, 239, 1);
+}
+
+.div_formulario_recuperar_contrasena {
+    position: relative;
+    min-height: 400px;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_ingreso_documento {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input_documento {
+    height: 20px;
+    width: 210px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+select {
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    width: 80px;
+}
+
+.input_email_recuperacion {
+    height: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.div_mensaje_aviso {
+    height: 100px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    border-radius: 20px;
+}
+
+.parrafo_mensaje_aviso {
+    font-size: 15px;
+    text-align: center;
+}
+
+.boton_cancelar {
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.boton_submit {
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    margin: 0px auto;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 900px) {
+
+    .titulo_principal {
+        top: 10px;
+        font-size: 100px;
+    }
+
+    .seccion_recuperar_contrasena_main {
+        min-height: 450px;
+    }
+
+    .div_formulario_recuperar_contrasena {
+        min-height: 400px;
+        width: 40%;
+        padding: 20px;
+    }
+
+    .boton_submit:hover {
+        transform: scale(1.1);
+    }
+
+    .boton_cancelar:hover {
+        transform: scale(1.1);
+    }
+
+}
