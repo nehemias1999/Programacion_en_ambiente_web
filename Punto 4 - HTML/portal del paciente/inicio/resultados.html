@@ -7,209 +7,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados</title>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/baseCuentaStyles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/resultadosStyles.css'>
+
     <script src='main.js'></script>
 
 </head>
 <body>
 
-    <header class="header">
+    <header>
 
-        <div class="div_logo_header"> 
-            <a href="../../home/home.html">
-                <img src="" alt="logo_de_la_clinica" src/>
+        <div class="div_logo_header">
+            <a href="" class="enlace_logo">
+                <img src="../../images/Imagotipo_PAW_Hospitals.svg" alt="imagen_logo" class="imagen_logo">
             </a>
         </div>
 
         <section class="seccion_logo_cuenta">
-            <h4>
+            <h4 class="titulo_nombre_cuenta">
                 Nombre de usuario
             </h4>
-            <img src="" alt="imagen_usuario">
+            
+            <div class="div_imagen_cuenta">
+                <img src="" alt="imagen_usuario" class="imagen_usuario">
+            </div>
+
         </section>
 
     </header>
 
-    <main class="main">
+    <main>
 
         <section class="seccion_principal">
 
-            <nav class="nav_menu_main">
+            <nav class="nav_menu_paginas_internas">
 
-                <ul class="lista_enlaces_header">
-                    <li class="enlace_pagina">
-                        <a href="turnos_pendientes.html">
-                            Turnos pendientes
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="ingresar_turno.html">
-                            Ingresar turno
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="vinculaciones.html">
-                            Vinculaciones
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="resultados.html">
-                            Resultados
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="mis_datos/mis_datos.html">
-                            Mis datos
-                        </a>
-                    </li>
-                </ul>
+                <a href="turnos_pendientes.html" class="enlace_pagina_interna">
+                    Turnos pendientes
+                </a>
+
+                <a href="ingresar_turno.html" class="enlace_pagina_interna">
+                    Ingresar turno
+                </a>
+
+                <a href="vinculaciones.html" class="enlace_pagina_interna">
+                    Vinculaciones
+                </a>
+
+                <a href="resultados.html" class="enlace_pagina_interna">
+                    Resultados
+                </a>
+
+                <a href="mis_datos/mis_datos.html" class="enlace_pagina_interna">
+                    Mis datos
+                </a>
     
             </nav>
 
             <section class="seccion_resultados">
                 
-                <header class="titulo_principal">
-                    <h1>
-                        Resultados
-                    </h1>
-                </header>
+                <h1 class="titulo_principal">
+                    Resultados
+                </h1>
 
-                <section class="seccion_lista_resultados">
+                <div class="div_nombre_columnas">
 
-                    <header class="header_nombre_columnas">
+                    <h3 class="titulo_nombre_columna">
+                        Fecha realizado
+                    </h3>
 
-                        <ul class="lista_nombre_columnas">
-                            <li class="elemento_nombre_columna">
-                                <p>
-                                    Fecha realizado
-                                </p>
-                            </li>
-                            <li class="elemento_nombre_columna">
-                                <p>
-                                    Estado
-                                </p>
-                            </li>
-                            <li class="elemento_nombre_columna">
-                                <p>
-                                    Tipo de examen
-                                </p>
-                            </li>
-                            <li class="elemento_nombre_columna">
-                                <p>
-                                    Solicitud
-                                </p>
-                            </li>
-                            <li class="elemento_nombre_columna">
-                                <p>
-                                    Ver informe
-                                </p>
-                            </li>
-                        </ul>
+                    <h3 class="titulo_nombre_columna">
+                        Estado
+                    </h3>
 
-                    </header>
+                    <h3 class="titulo_nombre_columna">
+                        Tipo de examen
+                    </h3>
+
+                    <h3 class="titulo_nombre_columna">
+                        Solicitud
+                    </h3>
+
+                    <h3 class="titulo_nombre_columna">
+                        Ver informe
+                    </h3>
+
+                </div>
+
+                <div class="div_lista_resultados">
 
                     <ul class="lista_resultados">
+                        
                         <li class="elemento_resultado">
-                            <article>
-                            
-                                <ul class="lista_datos_examen">
-                                    <li class="fecha_examen">
-                                        dd/mm/aaaa
-                                    </li>
-                                    <li class="estado_examen">
-                                        Estado
-                                    </li>
-                                    <li class="tipo_examen_examen">
-                                        Tipo examen
-                                    </li>
-                                    <li class="Solicitud_examen">
-                                        Solicitud
-                                    </li>
-                                </ul>
 
-                                <ul class="lista_enlaces_resultados">
-                                    <li class="elemento_enlace">
-                                        <button>
-                                            <a href="">
-                                                PDF
-                                            </a>
-                                        </button>
-                                    </li>
-                                </ul>
+                            <article class="articulo_resultado">
+                            
+                                <p class="parrafo_fecha_realizado">
+                                    dd/mm/aaaa
+                                </p>
+
+                                <p class="parrafo_estado">
+                                    Estado
+                                </p>
+
+                                <p class="parrafo_tipo_examen">
+                                    Tipo examen
+                                </p>
+
+                                <p class="parrafo_solicitud">
+                                    Solicitud
+                                </p>
+
+                                <button class="boton_enlace_resultado">
+                                    <a href="">
+                                        PDF
+                                    </a>
+                                </button>
 
                             </article>
+
                         </li>
+                        
                         <li class="elemento_resultado">
-                            <article>
-                            
-                                <ul class="lista_datos_examen">
-                                    <li class="fecha_examen">
-                                        dd/mm/aaaa
-                                    </li>
-                                    <li class="estado_examen">
-                                        Estado
-                                    </li>
-                                    <li class="tipo_examen_examen">
-                                        Tipo examen
-                                    </li>
-                                    <li class="Solicitud_examen">
-                                        Solicitud
-                                    </li>
-                                </ul>
 
-                                <ul class="lista_enlaces_resultados">
-                                    <li class="elemento_enlace">
-                                        <button>
-                                            <a href="">
-                                                PDF
-                                            </a>
-                                        </button>
-                                    </li>
-                                    <li class="elemento_enlace">
-                                        <button>
-                                            <a href="">
-                                                IMG
-                                            </a>
-                                        </button>
-                                    </li>
-                                </ul>
+                            <article class="articulo_resultado">
+                            
+                                <p class="parrafo_fecha_realizado">
+                                    dd/mm/aaaa
+                                </p>
+
+                                <p class="parrafo_estado">
+                                    Estado
+                                </p>
+
+                                <p class="parrafo_tipo_examen">
+                                    Tipo examen
+                                </p>
+
+                                <p class="parrafo_solicitud">
+                                    Solicitud
+                                </p>
+                                
+                                <button class="boton_enlace_resultado">
+                                    <a href="">
+                                        PDF
+                                    </a>
+                                </button>
 
                             </article>
+
                         </li>
-                        <li class="elemento_resultado">
-                            <article>
-                            
-                                <ul class="lista_datos_examen">
-                                    <li class="fecha_examen">
-                                        dd/mm/aaaa
-                                    </li>
-                                    <li class="estado_examen">
-                                        Estado
-                                    </li>
-                                    <li class="tipo_examen_examen">
-                                        Tipo examen
-                                    </li>
-                                    <li class="Solicitud_examen">
-                                        Solicitud
-                                    </li>
-                                </ul>
 
-                                <ul class="lista_enlaces_resultados">
-                                    <li class="elemento_enlace">
-                                        <button>
-                                            <a href="">
-                                                PDF
-                                            </a>
-                                        </button>
-                                    </li>
-                                </ul>
+                        <li class="elemento_resultado">
+
+                            <article class="articulo_resultado">
+                            
+                                <p class="parrafo_fecha_realizado">
+                                    dd/mm/aaaa
+                                </p>
+
+                                <p class="parrafo_estado">
+                                    Estado
+                                </p>
+
+                                <p class="parrafo_tipo_examen">
+                                    Tipo examen
+                                </p>
+
+                                <p class="parrafo_solicitud">
+                                    Solicitud
+                                </p>
+
+                                <button class="boton_enlace_resultado">
+                                    <a href="">
+                                        PDF
+                                    </a>
+                                </button>
 
                             </article>
+
                         </li>
 
                     </ul>
 
-                </section>
+                </div>                
 
             </section>
 
@@ -217,88 +198,47 @@
 
     </main>
 
-    <footer class="footer">
+    <footer>  
+        
+        <nav class="nav_contactos_footer">
 
-        <section class="enlaces_sponsors_footer">
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_facebook.png" alt="logo_facebook" class="imagen_contacto_footer"/>
+            </a>
 
-            <header class="header_seccion_sponsors_footer">
-                <h4>
-                    Sponsors
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_twitter.png" alt="logo_twitter" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_sponsors">
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-
-        <section class="seccion_contactos_footer">
-
-            <header class="header_seccion_contactos_footer">
-                <h4>
-                    Contactos
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_instagram.png" alt="logo_instagram" class="imagen_contacto_footer"/>
+            </a>
             
-            <ul class="lista_enlaces_contactos">
-                <li class="enlace_contacto">
-                    <a href="mailto:clinica@email.com">
-                        clinica@email.com
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <a href="tel:011-15XXXXXX">
-                        011-15XXXXXX
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <address>
-                        dirección
-                    </address>
-                </li>
-            </ul>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_youtube.png" alt="logo_youtube" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_redes_sociales">
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_facebook">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_twitter">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_instagram">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_youtube">
-                    </a>
-                </li>
-            </ul>
+            <a href="tel:011-15XXXXXX" class="enlace_contacto_footer">
+                <img src="../../images/icono_telefono.png" alt="logo_telefono" class="imagen_contacto_footer"/>
+            </a>
 
+            <a href="mailto:clinica@email.com" class="enlace_contacto_footer">
+                <img src="../../images/icono_email.png" alt="logo_mail" class="imagen_contacto_footer"/>
+            </a>
+
+        </nav>
+
+        <section class="seccion_final_footer">
+
+            <a href="#" class="enlace_logo_footer">
+                <img src="../../images/Imagotipo_PAW_Hospitals.svg" alt="logo_de_la_clinica" class="imagen_logo_footer"/>
+            </a>
+    
+            <p class="parrafo_final_footer">©2023 UNLu PAW UL Hospital Mariano Moreno 2790, Lujan, Buenos Aires.</p>
+    
         </section>
-
-    </footer> 
+        
+    </footer>
 
 </body>
 </html>
