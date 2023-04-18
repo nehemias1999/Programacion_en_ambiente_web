@@ -81,58 +81,59 @@
     width: 90%;
     margin: 0px auto;
     padding: 0px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 }
 
 .lista_obras_sociales {
     list-style: none;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column; 
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 2fr));
+    grid-gap: 10px;
 }
 
 .elemento_obra_social {
-    position: relative;
-    min-height: 100px;
-    margin-bottom: 10px;
-    border: solid 1px #000;
-    background-color: white;
+    height: 200px;
+    width: 400px;
 }
 
 .articulo_obra_social {
     min-width: 100%;
     min-height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .div_imagen_obra_social {
-    display: none;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 1px #000;
 }
 
 .div_descripcion_obra_social {
-    position: relative;
-    min-height: 100px;
-    min-width: 100%;
+    height: 40px;
+    min-width: 200px;
+    margin-left: 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    border: solid 1px #000;
     background-color: rgba(208, 36, 74, 0.5); /* Ver transparencia */
 }
 
 .titulo_obra_social {
-    font-size: 20px;
-}
-
-.parrafo_descripcion_obra_social {
     font-size: 15px;
-    margin: 10px;
+    margin: 0px auto;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
+
+    .boton_solicitar_turno:hover {
+        transform: scale(1.1);
+    }
 
     .div_buscador_obras_sociales {
         height: 70px;
@@ -148,5 +149,13 @@
     .boton_buscador {
         padding: 10px 20px;
         font-size: 20px;
+    }
+
+    .boton_buscador:hover {
+        transform: scale(1.05);
+    }
+
+    .seccion_listado_obras_sociales {
+        height: 470px;
     }
 }
