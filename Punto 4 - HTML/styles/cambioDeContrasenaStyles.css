@@ -18,7 +18,7 @@ a {
 
 .seccion_principal {
     position: relative;
-    min-height: 600px;
+    min-height: 500px;
     width: 100%;
     margin: 20px auto;
     border-top: solid 1px #000;
@@ -40,75 +40,63 @@ a {
     font-size: 1.3rem;
 }
 
-.seccion_resultados {
+.seccion_cambio_contrasena {
     position: relative;
-    min-height: 600px;
+    min-height: 350px;
     width: 95%;
     margin: 0px auto;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
     border: solid 1px #000;
 }
 
 .titulo_principal {
     font-size: 30px;
-    margin: 20px;
+    margin: 30px;
 }
 
-.div_nombre_columnas {
-    position: relative;
-    height: 40px;
-    width: 95%;
+form {
     margin: 0px auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: solid 1px #000;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.titulo_nombre_columna {
-    font-size: 15px;
-}
-
-.div_lista_resultados {
-    position: relative;
-    min-height: 400px;
-    max-width: 95%;
-    margin: 0px auto;
-    margin-bottom: 20px;
-}
-
-.lista_resultados {
-    list-style: none;
-    padding: 0px;
-}
-
-.elemento_resultado {
-    position: relative;
-    height: 40px;
-    width: 100%;
-    margin: 0px auto;
+input {
+    height: 20px;
+    width: 400px;
     margin-bottom: 10px;
-    border: solid 1px #000;
 }
 
-.articulo_resultado {
-    position: relative;
-    height: 100%;
-    width: 100%;
+.div_botones {
+    margin-top: 20px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.articulo_resultado > p {
+.boton_reset {
     font-size: 15px;
+    height: 30px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.boton_submit {
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
 
     .seccion_principal {
-        min-height: 760px;
+        min-height: 520px;
+    }
+
+    .enlace_pagina_interna:hover {
+        transform: scale(1.1);
     }
     
     .nav_menu_paginas_internas {
@@ -123,28 +111,22 @@ a {
         justify-content: space-around; 
     }
 
+    .seccion_cambio_contrasena {
+        top: 140px;
+        width: 60%;
+    }
+
     .titulo_principal {
         font-size: 40px;
-        margin: 30px;
-        margin-left: 10%;
+        margin: 30px auto;
     }
         
-    .enlace_pagina_interna:hover {
+    .boton_reset:hover {
         transform: scale(1.1);
     }
 
-    .seccion_resultados {
-        top: 150px;
-        min-height: 400px;
-        width: 70%;
-    }
-
-    .div_nombre_columnas {
-        width: 80%;
-    }
-
-    .div_lista_resultados {
-        width: 80%;
+    .boton_submit:hover {
+        transform: scale(1.1);
     }
 
 }

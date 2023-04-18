@@ -40,7 +40,7 @@ a {
     font-size: 1.3rem;
 }
 
-.seccion_resultados {
+.seccion_turnos_pendientes {
     position: relative;
     min-height: 600px;
     width: 95%;
@@ -69,7 +69,7 @@ a {
     font-size: 15px;
 }
 
-.div_lista_resultados {
+.div_lista_turnos_pendientes {
     position: relative;
     min-height: 400px;
     max-width: 95%;
@@ -77,12 +77,12 @@ a {
     margin-bottom: 20px;
 }
 
-.lista_resultados {
+.lista_turnos_pendientes {
     list-style: none;
     padding: 0px;
 }
 
-.elemento_resultado {
+.elemento_turno_pendiente {
     position: relative;
     height: 40px;
     width: 100%;
@@ -91,7 +91,7 @@ a {
     border: solid 1px #000;
 }
 
-.articulo_resultado {
+.articulo_turno_pendiente {
     position: relative;
     height: 100%;
     width: 100%;
@@ -100,7 +100,7 @@ a {
     justify-content: space-around;
 }
 
-.articulo_resultado > p {
+.articulo_pendiente > p {
     font-size: 15px;
 }
 
@@ -133,7 +133,7 @@ a {
         transform: scale(1.1);
     }
 
-    .seccion_resultados {
+    .seccion_turnos_pendientes {
         top: 150px;
         min-height: 400px;
         width: 70%;
@@ -143,7 +143,7 @@ a {
         width: 80%;
     }
 
-    .div_lista_resultados {
+    .div_lista_turnos_pendientes {
         width: 80%;
     }
 
