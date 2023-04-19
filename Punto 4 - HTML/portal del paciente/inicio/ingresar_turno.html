@@ -7,117 +7,301 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turnos pendientes</title>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/baseCuentaStyles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/ingresarTurnoStyles.css'>
+
     <script src='main.js'></script>
 
 </head>
 <body>
 
-    <header class="header">
+    <header>
 
-        <div class="div_logo_header"> 
-            <a href="../../home/home.html">
-                <img src="" alt="logo_de_la_clinica" src/>
+        <div class="div_logo_header">
+            <a href="" class="enlace_logo">
+                <img src="../../images/Imagotipo_PAW_Hospitals.svg" alt="imagen_logo" class="imagen_logo">
             </a>
         </div>
 
         <section class="seccion_logo_cuenta">
-            <h4>
+
+            <h4 class="titulo_nombre_cuenta">
                 Nombre de usuario
             </h4>
-            <img src="" alt="imagen_usuario">
+            
+            <div class="div_imagen_cuenta">
+                <img src="" alt="imagen_usuario" class="imagen_usuario">
+            </div>
+
         </section>
 
     </header>
 
-    <main class="main">
+    <main>
 
         <section class="seccion_principal">
 
-            <nav class="nav_menu_main">
+            <nav class="nav_menu_paginas_internas">
 
-                <ul class="lista_enlaces_header">
-                    <li class="enlace_pagina">
-                        <a href="turnos_pendientes.html">
-                            Turnos pendientes
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="ingresar_turno.html">
-                            Ingresar turno
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="vinculaciones.html">
-                            Vinculaciones
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="resultados.html">
-                            Resultados
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="mis datos/mis_datos.html">
-                            Mis datos
-                        </a>
-                    </li>
-                </ul>
+                <a href="turnos_pendientes.html" class="enlace_pagina_interna">
+                    Turnos pendientes
+                </a>
+
+                <a href="ingresar_turno.html" class="enlace_pagina_interna">
+                    Ingresar turno
+                </a>
+
+                <a href="vinculaciones.html" class="enlace_pagina_interna">
+                    Vinculaciones
+                </a>
+
+                <a href="resultados.html" class="enlace_pagina_interna">
+                    Resultados
+                </a>
+
+                <a href="mis_datos/mis_datos.html" class="enlace_pagina_interna">
+                    Mis datos
+                </a>
     
             </nav>
 
             <section class="seccion_solicitar_turno">
 
-                <header class="titulo_principal">
-                    <h1>
-                        Solicitar turno
-                    </h1>
-                </header>
+                <h1 class="titulo_principal">
+                    Solicitar turno
+                </h1>
 
-                <form action="">
+                <section class="seccion_formulario_turno">
 
-                    <input type="checkbox" name="checkbox_vinculo" id="">
-                    <label for="checkbox_vinculo">Solicitar turno para un tercero</label>
+                    <form action="" method="">
 
-                    <br>
+                        <div class="div_vinculo">
 
-                    <select name="select_vinculo" id="">
-                        <option value="">Vinculo 1</option>
-                        <option value="">Vinculo 2</option>
-                        <option value="">Vinculo 3</option>
-                    </select>
+                            <label for="checkbox_vinculo" class="label_vinculo">Solicitar turno para un tercero</label>
+                            <input type="checkbox" name="checkbox_vinculo" class="checkbox_vinculo">
+        
+                            <select name="select_vinculo" class="select_vinculo">
+                                <option value="" disabled selected>---</option>
+                                <option value="">Vinculo 1</option>
+                                <option value="">Vinculo 2</option>
+                                <option value="">Vinculo 3</option>
+                            </select>
 
-                    <br>
+                        </div>
+    
+                       <div class="div_alineacion">
 
-                    <label for="select_especialidad">Especialidad</label>
-                    <select name="select_especialidad" id="">
-                        <option value="">Cardiologia</option>
-                        <option value="">Traumatologia</option>
-                        <option value="">Medicina clinica</option>
-                        <option value="">Urologia</option>
-                    </select>
+                            <div class="div_especialidad">
 
-                    <label for="select_profesional">Profesional</label>
-                    <select name="select_profesional" id="">
-                        <option value="">Pagani, Rocio</option>
-                        <option value="">De negri, Gerardo</option>
-                        <option value="">Fernandez, Gustavo</option>
-                        <option value="">Solei, Sofia</option>
-                    </select>
+                                <label for="select_especialidad">Especialidad</label>
+                                <select name="select_especialidad" id="">
+                                    <option value="" disabled selected>---</option>
+                                    <option value="">Cardiologia</option>
+                                    <option value="">Traumatologia</option>
+                                    <option value="">Medicina clinica</option>
+                                    <option value="">Urologia</option>
+                                </select>
 
-                    <br>
+                            </div>
 
-                    <label for="">Seleccione una fecha y horario</label>
-                    <div class="div_calendario">
-                        ...
-                    </div>
+                            <div class="div_profesional">
+            
+                                <label for="select_profesional">Profesional</label>
+                                <select name="select_profesional" id="">
+                                    <option value="" disabled selected>---</option>
+                                    <option value="">Pagani, Rocio</option>
+                                    <option value="">De negri, Gerardo</option>
+                                    <option value="">Fernandez, Gustavo</option>
+                                    <option value="">Solei, Sofia</option>
+                                </select>
 
-                    <br>
+                            </div>
 
-                    <input type="reset" value="Cancelar">
-                    <input type="submit" value="Solicitar turno">
+                       </div>
+    
+                        <label for="">Seleccione una fecha y horario</label>
+                        <div class="div_turnos_disponibles">
+                            <div class="div_scrollbar">
+                                <div class="div_contenido">
+                                    <ul class="lista_turnos_disponibles">
 
-                </form>
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                        <li class="elemento_turno_disponible">
+                                            <article class="articulo_turno_disponible">
+
+                                                <p>
+                                                    dd/mm/aaaa
+                                                </p>
+
+                                                <p>
+                                                    hh:mm
+                                                </p>
+
+                                                <button class="boton_seleccionar">
+                                                    Seleccionar
+                                                </button>
+
+                                            </article>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+    
+                       <div class="div_botones">
+
+                            <input type="reset" value="Cancelar" class="boton_reset">
+                            <input type="submit" value="Solicitar turno" class="boton_submit">
+
+                       </div>
+    
+                    </form>
+
+                </section>
 
             </section>
 
@@ -125,88 +309,47 @@
 
     </main>
 
-    <footer class="footer">
+    <footer>  
+        
+        <nav class="nav_contactos_footer">
 
-        <section class="enlaces_sponsors_footer">
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_facebook.png" alt="logo_facebook" class="imagen_contacto_footer"/>
+            </a>
 
-            <header class="header_seccion_sponsors_footer">
-                <h4>
-                    Sponsors
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_twitter.png" alt="logo_twitter" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_sponsors">
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-
-        <section class="seccion_contactos_footer">
-
-            <header class="header_seccion_contactos_footer">
-                <h4>
-                    Contactos
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_instagram.png" alt="logo_instagram" class="imagen_contacto_footer"/>
+            </a>
             
-            <ul class="lista_enlaces_contactos">
-                <li class="enlace_contacto">
-                    <a href="mailto:clinica@email.com">
-                        clinica@email.com
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <a href="tel:011-15XXXXXX">
-                        011-15XXXXXX
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <address>
-                        dirección
-                    </address>
-                </li>
-            </ul>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../images/icono_youtube.png" alt="logo_youtube" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_redes_sociales">
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_facebook">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_twitter">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_instagram">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_youtube">
-                    </a>
-                </li>
-            </ul>
+            <a href="tel:011-15XXXXXX" class="enlace_contacto_footer">
+                <img src="../../images/icono_telefono.png" alt="logo_telefono" class="imagen_contacto_footer"/>
+            </a>
 
+            <a href="mailto:clinica@email.com" class="enlace_contacto_footer">
+                <img src="../../images/icono_email.png" alt="logo_mail" class="imagen_contacto_footer"/>
+            </a>
+
+        </nav>
+
+        <section class="seccion_final_footer">
+
+            <a href="#" class="enlace_logo_footer">
+                <img src="../../images/Imagotipo_PAW_Hospitals.svg" alt="logo_de_la_clinica" class="imagen_logo_footer"/>
+            </a>
+    
+            <p class="parrafo_final_footer">©2023 UNLu PAW UL Hospital Mariano Moreno 2790, Lujan, Buenos Aires.</p>
+    
         </section>
-
-    </footer> 
+        
+    </footer>
 
 </body>
 </html>

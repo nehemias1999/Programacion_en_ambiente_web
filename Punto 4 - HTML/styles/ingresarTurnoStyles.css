@@ -1,0 +1,242 @@
+
+/* GENERALES */
+
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-family: 'Gotham', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+/* MOBILE */
+
+.seccion_principal {
+    position: relative;
+    min-height: 600px;
+    width: 100%;
+    margin: 20px auto;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.nav_menu_paginas_internas {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 241, 239);     
+}
+    
+.enlace_pagina_interna {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.seccion_solicitar_turno {
+    position: relative;
+    min-height: 880px;
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
+.titulo_principal {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.seccion_formulario_turno {
+    position: relative;
+    min-height: 500px;
+    width: 95%;
+    margin: 0px auto;
+    border: solid 1px #000;
+}
+
+form {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div_vinculo {
+    position: relative;
+    top: 30px;
+    height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+}
+
+.label_vinculo {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    margin-right: 10px;
+}
+
+.checkbox_vinculo {
+    position: absolute;
+    top: 16px;
+    left: 5%;
+}
+
+.select_vinculo {
+    position: relative;
+    top: 50px;
+    height: 25px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.div_alineacion {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.div_especialidad {
+    position: relative;
+    height: 60px;
+    width: 40%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_profesional {
+    position: relative;
+    height: 60px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+select {
+    height: 25px;
+}
+
+input {
+    height: 20px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.div_turnos_disponibles {
+    height: 400px;
+    width: 95%;
+    margin: 0px auto;
+    padding: 10px;
+    border: solid 1px #000;
+}
+
+.div_scrollbar {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.div_contenido {
+    padding: 20px;
+}
+
+.lista_turnos_disponibles {
+    list-style: none;
+    padding: 0px;
+}
+
+.elemento_turno_disponible {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 1px #000;
+}
+
+.articulo_turno_disponible {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boton_seleccionar {
+    height: 35px;
+}
+
+.div_botones {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton_reset {
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.boton_submit {
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 900px) {
+
+    .seccion_principal {
+        min-height: 1075px;
+    }
+
+    .seccion_solicitar_turno {
+        top: 140px;
+        min-height: 910px;
+    }
+
+    .titulo_principal {
+        font-size: 50px;
+        top: 10px;
+        margin-left: 50px;
+    }
+
+    .nav_menu_paginas_internas {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        height: 60px;
+        width: 65%;
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        justify-content: space-around; 
+    }
+
+    .enlace_pagina_interna:hover {
+        transform: scale(1.1);
+    }
+
+    .seccion_formulario_turno {
+        width: 65%;
+    }
+
+}

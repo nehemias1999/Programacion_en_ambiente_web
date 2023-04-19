@@ -7,212 +7,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis datos</title>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../../styles/baseCuentaStyles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../../../styles/misDatosStyles.css'>
+
     <script src='main.js'></script>
 
 </head>
 <body>
 
-    <header class="header">
+    <header>
 
-        <div class="div_logo_header"> 
-            <a href="../../../home/home.html">
-                <img src="" alt="logo_de_la_clinica" src/>
+        <div class="div_logo_header">
+            <a href="" class="enlace_logo">
+                <img src="../../../images/Imagotipo_PAW_Hospitals.svg" alt="imagen_logo" class="imagen_logo">
             </a>
         </div>
 
         <section class="seccion_logo_cuenta">
-            <h4>
+            <h4 class="titulo_nombre_cuenta">
                 Nombre de usuario
             </h4>
-            <img src="" alt="imagen_usuario">
+            
+            <div class="div_imagen_cuenta">
+                <img src="" alt="imagen_usuario" class="imagen_usuario">
+            </div>
+
         </section>
 
     </header>
 
-    <main class="main">
+    <main>
 
         <section class="seccion_principal">
 
-            <nav class="nav_menu_main">
+            <nav class="nav_menu_paginas_internas">
 
-                <ul class="lista_enlaces_header">
-                    <li class="enlace_pagina">
-                        <a href="../turnos_pendientes.html">
-                            Turnos pendientes
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="../ingresar_turno.html">
-                            Ingresar turno
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="../vinculaciones.html">
-                            Vinculaciones
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="../resultados.html">
-                            Resultados
-                        </a>
-                    </li>
-                    <li class="enlace_pagina">
-                        <a href="mis_datos.html">
-                            Mis datos
-                        </a>
-                    </li>
-                </ul>
+                <a href="turnos_pendientes.html" class="enlace_pagina_interna">
+                    Turnos pendientes
+                </a>
+
+                <a href="ingresar_turno.html" class="enlace_pagina_interna">
+                    Ingresar turno
+                </a>
+
+                <a href="vinculaciones.html" class="enlace_pagina_interna">
+                    Vinculaciones
+                </a>
+
+                <a href="resultados.html" class="enlace_pagina_interna">
+                    Resultados
+                </a>
+
+                <a href="mis_datos/mis_datos.html" class="enlace_pagina_interna">
+                    Mis datos
+                </a>
     
             </nav>
 
-        </section>
+            <section class="seccion_mis_datos">
 
-        <section class="seccion_interior_mis_datos">
+                <div class="div_encabezado_mis_datos"> 
 
-            <header class="encabezado_titulo_iconos"> 
-                <h1 class="titulo_principal_datos">
-                    Tus datos
-                </h1>
+                    <h1 class="titulo_principal">
+                        Tus datos
+                    </h1>
+        
+                    <button class="boton_cambiar_contrasena">
+                        <a href="cambio_contraseña.html">
+                            cambiar contrasena
+                        </a>
+                    </button>
     
-                <button class="boton_cambiar_contraseña">
-                    <a href="cambio_contraseña.html">
-                        <img src="" alt="cambio de contraseña">
-                    </a>
-                </button>
+                    
+                    <button class="boton_editar">
+                        <a href="editar.html">
+                            Editar datos
+                        </a>
+                    </button>
+                    
+                </div>
+    
+                <section class="seccion_datos_usuario">
 
-                
-                <button class="boton_editar">
-                    <a href="editar.html">
-                        <img src="" alt="icono de editar datos">
-                    </a>
-                </button>
-                
-            </header>
-            
+                    <dl class="datos_generales_usuario_izquierda">
+                        <dt>Nombre:</dt> 
+                            <dd>nombre_usuario</dd>
+                        <dt>Apellido:</dt> 
+                            <dd>apellido_usuario</dd>
+                        <dt>Fecha Nac:</dt> 
+                            <dd>dd/mm/aaaa</dd>
+                        <dt>Email:</dt> 
+                            <dd>email_usuario</dd>
+                        <dt>Teléfono:</dt> 
+                            <dd>teléfono_usuario</dd>
+                    </dl>
+                    
+                    <dl class="datos_generales_usuario_derecha">
+                        <dt>Obra social:</dt> 
+                            <dd>obra_social_usuario</dd>
+                        <dt>Número afiliado:</dt> 
+                            <dd>num_afi_usuario</dd>
+                        <dt>Documento:</dt> 
+                            <dd>documento_usuario</dd>
+                        <dt>Tipo:</dt> 
+                            <dd>tipo_doc_usuario</dd>
+                        <dt>Provincia:</dt> 
+                            <dd>provincia_usuario</dd>
+                        <dt>Localidad:</dt> 
+                            <dd>localidad_usuario</dd>
+                        <dt>Calle:</dt> 
+                            <dd>calle_usuario</dd>
+                        <dt>N°:</dt> 
+                            <dd>numero_usuario</dd>
+                        <dt>Piso:</dt> 
+                            <dd>piso_usuario</dd>
+                        <dt>Depto:</dt> 
+                            <dd>depto_usuario</dd>
+                    </dl>
 
-            <dl class="datos_generales_usuario_izquierda">
-                <dt>Nombre:</dt> 
-                    <dd>nombre_usuario</dd>
-                <dt>Apellido:</dt> 
-                    <dd>apellido_usuario</dd>
-                <dt>Fecha Nac:</dt> 
-                    <dd>dd/mm/aaaa</dd>
-                <dt>Email:</dt> 
-                    <dd>email_usuario</dd>
-                <dt>Teléfono:</dt> 
-                    <dd>teléfono_usuario</dd>
-            </dl>
-            
-            <dl class="datos_generales_usuario_derecha">
-                <dt>Obra social:</dt> 
-                    <dd>obra_social_usuario</dd>
-                <dt>Número afiliado:</dt> 
-                    <dd>num_afi_usuario</dd>
-                <dt>Documento:</dt> 
-                    <dd>documento_usuario</dd>
-                <dt>Tipo:</dt> 
-                    <dd>tipo_doc_usuario</dd>
-                <dt>Provincia:</dt> 
-                    <dd>provincia_usuario</dd>
-                <dt>Localidad:</dt> 
-                    <dd>localidad_usuario</dd>
-                <dt>Calle:</dt> 
-                    <dd>calle_usuario</dd>
-                <dt>N°:</dt> 
-                    <dd>numero_usuario</dd>
-                <dt>Piso:</dt> 
-                    <dd>piso_usuario</dd>
-                <dt>Depto:</dt> 
-                    <dd>depto_usuario</dd>
-            </dl>
-            
+                </section>
+                
+            </section>
+
         </section>
 
     </main>
 
-    <footer class="footer">
+    <footer>  
+        
+        <nav class="nav_contactos_footer">
 
-        <section class="enlaces_sponsors_footer">
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../../images/icono_facebook.png" alt="logo_facebook" class="imagen_contacto_footer"/>
+            </a>
 
-            <header class="header_seccion_sponsors_footer">
-                <h4>
-                    Sponsors
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../../images/icono_twitter.png" alt="logo_twitter" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_sponsors">
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-                <li class="enlace_sponsor">
-                    <a href="">
-                        <img src="" alt="logo_sponsor">
-                    </a>
-                </li>
-            </ul>
-
-        </section>
-
-        <section class="seccion_contactos_footer">
-
-            <header class="header_seccion_contactos_footer">
-                <h4>
-                    Contactos
-                </h4>
-            </header>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../../images/icono_instagram.png" alt="logo_instagram" class="imagen_contacto_footer"/>
+            </a>
             
-            <ul class="lista_enlaces_contactos">
-                <li class="enlace_contacto">
-                    <a href="mailto:clinica@email.com">
-                        clinica@email.com
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <a href="tel:011-15XXXXXX">
-                        011-15XXXXXX
-                    </a>
-                </li>
-                <li class="enlace_contacto">
-                    <address>
-                        dirección
-                    </address>
-                </li>
-            </ul>
+            <a href="" class="enlace_contacto_footer">
+                <img src="../../../images/icono_youtube.png" alt="logo_youtube" class="imagen_contacto_footer"/>
+            </a>
 
-            <ul class="lista_enlaces_redes_sociales">
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_facebook">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_twitter">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_instagram">
-                    </a>
-                </li>
-                <li class="enlace_red_social">
-                    <a href="">
-                        <img src="" alt="logo_youtube">
-                    </a>
-                </li>
-            </ul>
+            <a href="tel:011-15XXXXXX" class="enlace_contacto_footer">
+                <img src="../../../images/icono_telefono.png" alt="logo_telefono" class="imagen_contacto_footer"/>
+            </a>
 
+            <a href="mailto:clinica@email.com" class="enlace_contacto_footer">
+                <img src="../../../images/icono_email.png" alt="logo_mail" class="imagen_contacto_footer"/>
+            </a>
+
+        </nav>
+
+        <section class="seccion_final_footer">
+
+            <a href="#" class="enlace_logo_footer">
+                <img src="../../../images/Imagotipo_PAW_Hospitals.svg" alt="logo_de_la_clinica" class="imagen_logo_footer"/>
+            </a>
+    
+            <p class="parrafo_final_footer">©2023 UNLu PAW UL Hospital Mariano Moreno 2790, Lujan, Buenos Aires.</p>
+    
         </section>
-
-    </footer> 
+        
+    </footer>
 
 </body>
 </html>
