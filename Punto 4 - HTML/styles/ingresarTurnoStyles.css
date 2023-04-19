@@ -42,7 +42,7 @@ a {
 
 .seccion_solicitar_turno {
     position: relative;
-    min-height: 880px;
+    min-height: 885px;
     width: 100%;
     margin: 0px auto;
     margin-bottom: 20px;
@@ -90,7 +90,7 @@ form {
 .checkbox_vinculo {
     position: absolute;
     top: 16px;
-    left: 5%;
+    left: 35px;
 }
 
 .select_vinculo {
@@ -130,6 +130,11 @@ form {
 
 select {
     height: 25px;
+}
+
+.label_turnos_disponibles {
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 input {
@@ -210,7 +215,7 @@ input {
 
     .seccion_solicitar_turno {
         top: 140px;
-        min-height: 910px;
+        min-height: 915px;
     }
 
     .titulo_principal {
@@ -235,8 +240,20 @@ input {
         transform: scale(1.1);
     }
 
+    .checkbox_vinculo {
+        left: 45px;
+    }
+
     .seccion_formulario_turno {
         width: 65%;
+    }
+
+    .boton_reset:hover {
+        transform: scale(1.1);
+    }
+
+    .boton_submit:hover {
+        transform: scale(1.1);
     }
 
 }
