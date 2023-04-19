@@ -1,6 +1,20 @@
 
 /* GENERALES */
+@import url('https://fonts.cdnfonts.com/css/gotham');
 
+a{
+    font-family: 'Gotham', sans-serif;
+}  
+
+h1{
+    color: black;
+    font-family: 'Gotham', sans-serif;
+}
+
+p{
+     color: rgb(2, 82, 85);
+     font-family: 'Gotham', sans-serif;
+}
 /* MOBILE */
 
 .div_principal_main {
