@@ -2,19 +2,20 @@
 /* GENERALES */
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
-a{
+a {
     font-family: 'Gotham', sans-serif;
 }  
 
-h1{
+h1, h2, h3 {
     color: black;
     font-family: 'Gotham', sans-serif;
 }
 
-p{
+p {
      color: rgb(2, 82, 85);
      font-family: 'Gotham', sans-serif;
 }
+
 /* MOBILE */
 
 .div_principal_main {
@@ -29,12 +30,11 @@ p{
 .titulo_principal {
     position: relative;
     margin: 40px auto;
-    font-size: 50px;
+    font-size: 9vw;
 }
 
 .seccion_formulario_main {
     position: relative;
-    min-height: 300px;
     width: 100%;
     margin-bottom: 20px;
     border-top: solid 1px #000;
@@ -44,12 +44,9 @@ p{
 
 .div_formulario_ingreso {
     position: relative;
-    min-height: 300px;
-    width: 90%;
+    width: 75%;
     margin: 20px auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    padding: 20px;
     border: solid 1px #000;
     border-radius: 10px;
 }
@@ -57,60 +54,55 @@ p{
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+label {
+    position: relative;
+    left: 4%;
 }
 
 .div_ingreso_documento {
     position: relative;
+    width: 91%;
+    margin: 0px auto;
     display: flex;
-    justify-content: center;
 }
 
 .input_documento {
-    height: 20px;
-    width: 210px;
+    width: 70%;
     margin-right: 10px;
-    margin-bottom: 15px;
 }
 
 select {
-    font-size: 15px;
-    text-align: center;
     height: 25px;
-    width: 80px;
+    width: 30%;
+    text-align: center;
 }
 
-.input_contrasena {
+input {
     height: 20px;
-    width: 300px;
-    margin-bottom: 20px;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 form > a {
+    position: relative;
+    left: 4%;
     margin-bottom: 10px;
 }
 
 .boton_submit {
     font-size: 20px;
     height: 40px;
-    width: 200px;
-    margin: 20px auto;
+    width: 50%;
+    margin: 10px auto;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
 
-    .titulo_principal {
-        top: 10px;
-        font-size: 100px;
-    }
-
-    .seccion_formulario_main {
-        min-height: 400px;
-    }
-
     .div_formulario_ingreso {
-        min-height: 350px;
         width: 40%;
     }
 
