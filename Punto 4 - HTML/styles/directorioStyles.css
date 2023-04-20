@@ -6,7 +6,27 @@ body {
     margin: 0px;
 }
 
+h1{
+    color: black;
+    font-family: 'Gotham', sans-serif;
+}
+
+h2{
+    color: black;
+    font-family: 'Gotham', sans-serif;
+}
+
+h3{
+    color: black;
+    font-family: 'Gotham', sans-serif;
+}
+
 /* MOBILE */
+
+main {
+    position: relative;
+    background-color: rgba(252, 196, 68, 50% );
+}
 
 /*Prueba*/
 .div_principal_main {

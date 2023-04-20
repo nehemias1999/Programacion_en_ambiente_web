@@ -19,6 +19,12 @@ p {
     font-size: large;
 }
 
+h1{
+    color: black;
+    font-family: 'Gotham', sans-serif;
+   
+}
+
 h2{
     color: black;
     font-family: 'Gotham', sans-serif;
@@ -30,7 +36,10 @@ h3{
 }
 
 /* MOBILE */
-
+main {
+    position: relative;
+    background-color: rgba(252, 196, 68, 50% );
+}
 /*Prueba*/
 .div_principal_main {
     position: relative;

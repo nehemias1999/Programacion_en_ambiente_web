@@ -12,6 +12,12 @@ h1{
     font-family: 'Gotham', sans-serif;
 }
 
+h3{
+    color: rgb(2, 82, 85);
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
+}
+
 p{
      color: rgb(2, 82, 85);
      font-family: 'Gotham', sans-serif;
@@ -19,8 +25,10 @@ p{
 
 /* MOBILE */
 
+
+
 main{
-    background-color: rgb(75, 75, 75, 20%);
+    background-color: rgba(252, 196, 68, 50% );
     display: flex;
     flex-direction: column;
     align-items: center;
