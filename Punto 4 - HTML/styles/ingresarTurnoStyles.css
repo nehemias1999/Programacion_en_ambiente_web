@@ -286,19 +286,37 @@ input {
     }
 
     .seccion_formulario_turno {
+        border: none;
         background-color: white;
+    }
+
+    .div_vinculo {
+        display: none;
+    }
+
+    .div_alineacion {
+        display: none;
     }
 
     .seccion_solicitar_turno {
         border: none;
     }
 
-    .div_contenido .lista_turnos_disponibles li {
-        display: list-item;
+    .label_turnos_disponibles {
+        display: none;
+    }
+
+    .div_turnos_disponibles {
+        border: none;
+    }
+
+    .div_scrollbar {
+        overflow: visible;
+        overflow-y: none;
     }
     
     .boton_reset, .boton_submit {
-        background-color: white;
+       display: none;
     }
        
 }

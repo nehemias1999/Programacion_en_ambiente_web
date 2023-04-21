@@ -300,9 +300,17 @@ input {
         background-color: white;
     }
 
-    .seccion_cargar_vinculos {
+    .div_vinculos_cargados {
         border: none;
-        background-color: white;
+    }
+
+    .div_scrollbar {
+        overflow: visible;
+        overflow-y: none;
+    }
+
+    .seccion_cargar_vinculos {
+        display: none;
     }
            
 }
