@@ -30,6 +30,7 @@ a {
     margin: 20px auto;
     display: flex;
     flex-direction: column;
+    border-radius: 10px 0px 10px 10px;
     background-color: rgb(238, 241, 239);     
 }
     
@@ -44,7 +45,9 @@ a {
     width: 75%;
     margin: 20px auto;
     padding: 20px;
-    border: solid 1px #000;
+    border-radius: 10px 0px 10px 10px;
+    border: solid 2px #000;
+    background-color: rgb(238, 241, 239);
 }
 
 .titulo_principal {

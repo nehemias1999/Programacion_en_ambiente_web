@@ -45,6 +45,7 @@ header {
 .imagen_logo {
     min-width: 100%;
     min-height: 100%;
+    border-radius: 10px 0px 10px 10px;
     background-color: white;
 }
 
