@@ -80,7 +80,7 @@ input {
 
 .div_ingreso_documento {
     position: relative;
-    width: 91%;
+    width: 92.5%;
     margin: 0px auto;
     display: flex;
 }
@@ -96,14 +96,14 @@ input {
 
 select {
     height: 25px;
-    width: 91%;
+    width: 92.5%;
     margin: 0px auto;
     margin-bottom: 10px;
 }
 
 .div_telefono {
     position: relative;
-    width: 91%;
+    width: 92.5%;
     margin: 0px auto;
     display: flex;
 }
