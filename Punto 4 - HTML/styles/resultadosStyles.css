@@ -182,7 +182,13 @@ a {
     }
 
     .seccion_resultados {
+        border: none;
         background-color: white;
     }
-           
+
+    .div_scrollbar {
+        overflow: visible;
+        overflow-y: none;
+    }
+
 }

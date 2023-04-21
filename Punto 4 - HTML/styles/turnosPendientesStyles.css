@@ -184,5 +184,15 @@ a {
     .seccion_turnos_pendientes {
         background-color: white;
     }
+
+    .seccion_turnos_pendientes {
+        border: none;
+        background-color: white;
+    }
+
+    .div_scrollbar {
+        overflow: visible;
+        overflow-y: none;
+    }
            
 }
