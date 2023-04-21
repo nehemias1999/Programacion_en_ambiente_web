@@ -207,3 +207,23 @@ footer {
     }
 
 }
+
+@media print {
+    
+    header {
+        min-height: 8rem;
+    }
+    
+    .imagen_logo {
+        filter: grayscale(100%);
+    }
+    
+    .seccion_logo_cuenta {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }    
+
+}

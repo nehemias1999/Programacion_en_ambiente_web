@@ -247,3 +247,23 @@ footer {
     }
 
 }
+
+@media print {
+
+    header {
+        min-height: 5rem;
+    }
+    
+    .imagen_logo {
+        filter: grayscale(100%);
+    }
+    
+    .nav_contactos_header, .nav_enlaces_header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+    
+}

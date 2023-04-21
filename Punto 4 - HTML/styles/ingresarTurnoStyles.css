@@ -270,3 +270,35 @@ input {
     }
 
 }
+
+@media print {
+            
+    .seccion_principal {
+        border: none;
+    } 
+
+    .nav_menu_paginas_internas {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    .seccion_formulario_turno {
+        background-color: white;
+    }
+
+    .seccion_solicitar_turno {
+        border: none;
+    }
+
+    .div_contenido .lista_turnos_disponibles li {
+        display: list-item;
+    }
+    
+    .boton_reset, .boton_submit {
+        background-color: white;
+    }
+       
+}

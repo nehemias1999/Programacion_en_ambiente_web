@@ -85,6 +85,31 @@ input {
     margin-bottom: 10px;
 }
 
+.div_domicilio {
+    position: relative;
+    width: 92%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.div_dato {
+    width: calc(100% / 3);
+    padding-right: 7px;
+    display: inline-block;
+}
+
+.div_dato > input {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.div_dato > input:last-child {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+
 .div_botones {
     position: relative;
     width: 90%;
@@ -125,4 +150,24 @@ progress {
         transform: scale(1.1);
     }
 
+}
+
+@media print {
+    
+    .seccion_ingresar_portal_main {
+        border: none;
+    }
+    
+    .div_formulario_domicilio {
+        background-color: white;
+    }
+    
+    button {
+        background-color: white;
+    }
+    
+    progress {
+        visibility: hidden;
+    }
+        
 }

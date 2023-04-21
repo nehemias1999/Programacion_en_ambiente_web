@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Domicilio</title>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/baseStyles.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../../styles/domicilioStyles.css'>
+    <link rel='stylesheet' type='text/css' media='all' href='../../styles/baseStyles.css'>
+    <link rel='stylesheet' type='text/css' media='all' href='../../styles/domicilioStyles.css'>
 
     <script src='main.js'></script>
 
@@ -122,14 +122,24 @@
                     <label for="input_calle">Calle</label>
                     <input type="text" name="input_calle">
 
-                    <label for="input_numero">Número</label>
-                    <input type="text" name="input_numero" inputmode="numeric" pattern="[0-9]*">
+                    <div class="div_domicilio">
+
+                        <div class="div_dato">
+                            <label for="input_numero">Número</label>
+                            <input type="text" name="input_numero" inputmode="numeric" pattern="[0-9]*">
+                        </div>
+
+                        <div class="div_dato">
+                            <label for="input_depto">Depto</label>
+                            <input type="text" name="input_depto">
+                        </div>    
+                        
+                        <div class="div_dato">
+                            <label for="input_piso">Piso</label>
+                            <input type="text" name="input_piso" inputmode="numeric" pattern="[0-9]*">
+                        </div> 
                     
-                    <label for="input_depto">Depto</label>
-                    <input type="text" name="input_depto">
-                    
-                    <label for="input_piso">Piso</label>
-                    <input type="text" name="input_piso" inputmode="numeric" pattern="[0-9]*">
+                    </div>
 
                     <div class="div_botones">
 

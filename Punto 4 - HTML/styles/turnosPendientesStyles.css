@@ -166,3 +166,23 @@ a {
     }
 
 }
+
+@media print {
+            
+    .seccion_principal {
+        border: none;
+    } 
+
+    .nav_menu_paginas_internas {
+        display: none;
+    }
+
+    button {
+        visibility: hidden;
+    }
+
+    .seccion_turnos_pendientes {
+        background-color: white;
+    }
+           
+}

@@ -146,3 +146,23 @@ input {
     }
 
 }
+
+@media print {
+        
+    .seccion_principal {
+        border: none;
+    } 
+
+    .nav_menu_paginas_internas {
+        display: none;
+    }
+
+    .seccion_cambio_contrasena {
+        background-color: white;
+    }
+    
+    .boton_reset, .boton_submit {
+        background-color: white;
+    }
+            
+}

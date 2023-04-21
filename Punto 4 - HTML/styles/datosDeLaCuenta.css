@@ -118,3 +118,23 @@ progress {
     }
 
 }
+
+@media print {
+    
+    .seccion_ingresar_portal_main {
+        border: none;
+    }
+    
+    .div_formulario_datos_cuenta {
+        background-color: white;
+    }
+    
+    button {
+        background-color: white;
+    }
+    
+    progress {
+        visibility: hidden;
+    }
+        
+}

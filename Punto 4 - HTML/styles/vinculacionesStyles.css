@@ -280,3 +280,29 @@ input {
     }
 
 }
+
+@media print {
+            
+    .seccion_principal {
+        border: none;
+    } 
+
+    .nav_menu_paginas_internas {
+        display: none;
+    }
+
+    button {
+        visibility: hidden;
+    }
+
+    .seccion_vinculos_cargados {
+        border: none;
+        background-color: white;
+    }
+
+    .seccion_cargar_vinculos {
+        border: none;
+        background-color: white;
+    }
+           
+}

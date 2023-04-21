@@ -110,3 +110,19 @@ form > a {
     }
 
 }
+
+@media print {
+        
+    .seccion_principal {
+        border: none;
+    } 
+
+    .seccion_formulario_main {
+        border: none;
+    }
+    
+    .boton_submit {
+        background-color: white;
+    }
+            
+}

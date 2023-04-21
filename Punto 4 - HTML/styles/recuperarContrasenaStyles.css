@@ -76,7 +76,7 @@ input {
     display: flex;
 }
 
-.input_documento { /* VER */
+.input_documento { 
     width: 70%;
     margin-right: 10px;
     margin-bottom: 0px;
@@ -130,4 +130,24 @@ select {
         transform: scale(1.1);
     }
 
+}
+
+@media print {
+        
+    .seccion_principal {
+        border: none;
+    } 
+
+    .seccion_recuperar_contrasena_main  {
+        border: none;
+    }
+
+    .parrafo_mensaje_aviso {
+        color: #000;
+    }
+    
+    .boton_cancelar, .boton_submit {
+        background-color: white;
+    }
+            
 }
