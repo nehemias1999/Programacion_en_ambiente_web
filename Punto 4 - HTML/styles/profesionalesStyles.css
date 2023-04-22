@@ -326,3 +326,28 @@ p{
     }
     /*fin prueba*/
 }
+
+@media print {
+    
+    .seccion_profesionales_main {
+        border: none;
+    }
+
+    .boton_solicitar_turno {
+        display: none;
+    }
+
+    .div_buscador_profesionales {
+        display: none;
+    }
+
+    .seccion_listado_profesionales {
+        overflow: visible;
+        overflow-y: none;
+    }
+
+    .imagen_profesional {
+        filter: grayscale(100%);
+    }
+
+}

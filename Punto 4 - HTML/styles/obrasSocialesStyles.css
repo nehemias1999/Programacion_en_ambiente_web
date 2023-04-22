@@ -87,7 +87,6 @@ p{
     letter-spacing: 1.3px;
     font-weight: 700;
     color: black;
-   
     text-align: center;
 }
 
@@ -295,4 +294,37 @@ p{
         }
     }
     /*fin prueba*/
+}
+
+@media print {
+    
+    .seccion_obras_sociales {
+        border: none;
+    }
+
+    .boton_solicitar_turno {
+        display: none;
+    }
+
+    .div_buscador_obras_sociales {
+        display: none;
+    }
+
+    .seccion_obras_sociales_main {
+        border: none;
+    }
+
+    .seccion_listado_obras_sociales {
+        overflow: visible;
+        overflow-y: none;
+    }
+
+    .lista_obras_sociales {
+        display: grid;
+    }
+
+    .div_imagen_obra_social {
+        filter: grayscale(100%);
+    }
+
 }

@@ -116,3 +116,15 @@ textarea {
     }
 
 }
+
+@media print {
+
+    .seccion_contacto_main {
+        border: none;
+    }
+
+    .boton_reset, .boton_submit {
+        background-color: white;
+    }
+    
+}
