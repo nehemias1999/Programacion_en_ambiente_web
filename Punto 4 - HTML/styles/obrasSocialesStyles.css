@@ -54,7 +54,7 @@ p{
     position: absolute;
     padding: 10px;
     top: 150px;
-    right: 90px;
+    right: 105px;
 }
 
   /*Estilo para el enlace */
@@ -76,7 +76,7 @@ p{
 .titulo_principal_main {
     position: relative;
     margin: 40px auto;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .titulo_principal {
@@ -184,6 +184,9 @@ p{
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
+    .titulo_principal_main {
+        font-size: 70px;
+    }
 
     .boton_solicitar_turno:hover {
         transform: scale(1.1);
@@ -211,6 +214,11 @@ p{
 
     .seccion_listado_obras_sociales {
         height: 470px;
+    }
+
+    .boton_solicitar_turno{
+        top: 150px;
+        right: 90px;
     }
 
     .boton_solicitar_turno::before{

@@ -32,7 +32,7 @@ p {
 .titulo_principal {
     position: relative;
     margin: 40px auto;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .seccion_contacto_main {
@@ -103,6 +103,7 @@ textarea {
     .titulo_principal {
         margin-top: 40px;
         margin-bottom: 10px;
+        font-size: 4rem;
     }
 
     .div_formulario {

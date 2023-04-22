@@ -53,7 +53,7 @@ main{
     position: absolute;
     padding: 10px;
     top: 150px;
-    right: 90px;
+    right: 105px;
 }
 
   /*Estilo para el enlace */
@@ -75,7 +75,7 @@ main{
 .titulo_principal_main {
     position: relative;
     margin: 40px auto;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .titulo_principal {
@@ -146,6 +146,11 @@ main{
 
     .boton_vuelta_arriba:hover {
         transform: scale(1.1);
+    }
+
+    .boton_solicitar_turno{
+        top: 150px;
+        right: 90px;
     }
 
     .boton_solicitar_turno::before{

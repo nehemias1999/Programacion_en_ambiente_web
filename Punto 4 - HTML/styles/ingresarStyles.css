@@ -31,7 +31,8 @@ p {
 .titulo_principal {
     position: relative;
     margin: 40px auto;
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .seccion_formulario_main {
@@ -102,7 +103,9 @@ form > a {
 
 /* DESKTOP */
 @media screen and (min-width: 900px) {
-
+    .titulo_principal{
+        font-size: 4rem;
+    }
     .div_formulario_ingreso {
         width: 40%;
     }
