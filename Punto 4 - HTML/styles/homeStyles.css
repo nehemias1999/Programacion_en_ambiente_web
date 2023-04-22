@@ -186,6 +186,7 @@ main {
     min-height: 100px;
     border-top: solid 1px #000;
     background:rgba(255,255,255,0.4);
+    
 }
 
 .titulo_pagina_interna {
@@ -207,13 +208,14 @@ main {
     width: 95%;
     height: 300px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .seccion_ubicacion_main > iframe {
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    
 }
 
 /* DESKTOP */
