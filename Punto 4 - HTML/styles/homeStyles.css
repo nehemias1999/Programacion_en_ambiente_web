@@ -4,17 +4,19 @@
 @import url('https://fonts.cdnfonts.com/css/gotham');
 
 a{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham Light', sans-serif;
+    
 }           
 
 h4{
     color: rgb(2, 82, 85);
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham Medium Italic', sans-serif;
     text-transform: uppercase;
+    
 }
 
 p{
-     color: rgb(2, 82, 85);
+     color: black;
 }
 
 
@@ -23,7 +25,8 @@ p{
 /* MOBILE */
 main {
     position: relative;
-    background-color: rgb(113, 136, 57);
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 37%, rgba(135,211,226,1) 92%);
   }
   
   main::before {
@@ -33,22 +36,11 @@ main {
     left: 0px;
     width: 100%;
     height: 50%;
-    background-image: url(../images/frente.jpg);
+    background-image: url(../images/espera2.jpg);
     background-size: cover;
-    filter: grayscale(100%);
     z-index: 0;
   }
 
-.div_principal_main {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    min-height: 250px;
-    display: flex;
-}
-
-/*Prueba*/
 .div_principal_main {
     position: relative;
     top: 0px;
@@ -92,8 +84,6 @@ main {
     text-align: center;
 }
 
-
-
 .titulo_principal_main {
     position: relative;
     margin: 40px auto;
@@ -114,7 +104,8 @@ main {
     margin: auto;
     /*margin-bottom:30px*/
     margin-bottom: 50px;
-    margin-top: 105px;
+    /* esta era antes margin-top: 105px;*/
+    margin-top: 185px;
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
 }
@@ -228,8 +219,6 @@ main {
 /* DESKTOP */
 @media screen and (min-width: 900px) {
 
-   
-
     .titulo_principal_main {
         top: 10px;
         font-size: 100px;
@@ -274,13 +263,6 @@ main {
     }
       
     .boton_solicitar_turno::after{
-        /* efecto circular en el centro
-        content: '';
-        width: 30px; height: 30px;
-        border-radius: 100%;
-        border: 6px solid rgb(0 157 218);
-        position: absolute;*/
-        /*efecto alrededor del boton*/
         content: '';
         border-radius: 1000px;
         min-width: calc(230px);
@@ -288,7 +270,7 @@ main {
         border: 3px solid rgb(0 157 218);
         /*box-shadow: 0 0 60px rgb(0 157 218);*/
         position: absolute;
-        z-index: -1;
+        z-index: 1;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -313,8 +295,11 @@ main {
           opacity: 0;
         }
     }
-    /*fin prueba*/
-    
+   
+    main::before {
+        top: 15px;
+        max-height: 23%;
+    }  
   
 
 }

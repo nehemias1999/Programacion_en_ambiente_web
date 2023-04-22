@@ -25,6 +25,8 @@ p{
      color: rgb(2, 82, 85);
      font-family: 'Gotham', sans-serif;
 }
+
+
 /* MOBILE */
 
 .div_principal_main {
@@ -35,18 +37,7 @@ p{
     min-height: 250px;
     display: flex;
 }
-/*
-.boton_solicitar_turno {
-    position: absolute;
-    top: 150px;
-    right: 20px; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(252, 196, 68);
-}*/
 
-/*Prueba*/
 .div_principal_main {
     position: relative;
     top: 0px;
@@ -54,6 +45,8 @@ p{
     width: 100%;
     min-height: 250px;
     display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 56%, rgba(160,73,40,0.6614845767408526) 105%); 
   }
 
   /*Estilos para el boton*/
@@ -285,13 +278,6 @@ p{
     }
       
     .boton_solicitar_turno::after{
-        /* efecto circular en el centro
-        content: '';
-        width: 30px; height: 30px;
-        border-radius: 100%;
-        border: 6px solid rgb(0 157 218);
-        position: absolute;*/
-        /*efecto alrededor del boton*/
         content: '';
         border-radius: 1000px;
         min-width: calc(230px);

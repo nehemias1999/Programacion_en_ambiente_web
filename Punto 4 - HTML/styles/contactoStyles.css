@@ -25,12 +25,14 @@ p {
     height: 150px;
     width: 100%;
     display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(0,157,218,0.41778709774925593) 110%); 
 }
 
 .titulo_principal {
     position: relative;
     margin: 40px auto;
-    font-size: 60px;
+    font-size: 4rem;
 }
 
 .seccion_contacto_main {
