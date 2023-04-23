@@ -325,8 +325,75 @@ main{
           opacity: 0;
         }
     }
+}
 
-   
-  
+
+@media print {
+
+    .boton_solicitar_turno{
+        display: none;
+    }
+
+    .imagen_mision{
+        filter:grayscale();
+    }
+
+    .titulo_mision{
+        color:black;
+    }
+
+    .imagen_valores{
+        filter:grayscale();
+    }
+
+    .titulo_valores{
+        color:black;
+    }
+
+    .imagen_pagina_interna{
+        filter: grayscale();
+    }
+
+    .titulo_pagina_interna{
+        color:black;
+    }
+
+    .seccion_mision_main{
+        border:none;
+    }
+
+    .seccion_valores_main{
+        border:none;
+    }
+
+    .seccion_paginas_internas_main{
+        border:none;
+    }
+
+    .div_introduccion_mision{
+        border:none;
+    }
+
+    .div_introduccion_valores{
+        border:none;
+    }
+
+    .div_introduccion_pagina_interna{
+        border:none;
+    }
+
+    .articulo_mision_main{
+        border:none;
+    }
+
+    .articulo_pagina_interna{
+        border:none;
+    }
+
+    .articulo_valores{
+        border:none;
+    }
+
+
 
 }

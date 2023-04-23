@@ -221,9 +221,6 @@ p{
 .subtitulo_cargo_profesional {
     margin-left: 10px;
     padding: 0px;
-   /* border-bottom: 2px solid rgb(2, 82, 85);
-    display: inline-block; Esto es necesario para que la línea sea más larga que el texto 
-    padding-bottom: 5px; Opcional, agrega poco de espacio entre el texto y la línea */
 }
 
 /* DESKTOP */

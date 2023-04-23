@@ -233,6 +233,21 @@ main{
           opacity: 0;
         }
     }
-   
+}
+
+
+@media print {
+
+    .boton_solicitar_turno{
+        display: none;
+    }
+
+    .div_contenido{
+        border:none;
+    }
+
+    .elemento_directorio{
+        filter:grayscale();
+    }
 
 }

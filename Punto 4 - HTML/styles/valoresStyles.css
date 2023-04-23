@@ -212,6 +212,22 @@ main{
           opacity: 0;
         }
     }
+}
 
 
+@media print {
+
+    .boton_solicitar_turno{
+        display: none;
+    }
+
+    .imagen_valores{
+        filter:grayscale();
+        border:none;
+    }
+
+
+    .boton_vuelta_arriba{
+        display: none;
+    }
 }
