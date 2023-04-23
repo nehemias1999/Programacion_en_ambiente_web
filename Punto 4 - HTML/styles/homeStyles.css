@@ -5,7 +5,7 @@
 
 a{
     font-family: 'Gotham Light', sans-serif;
-    
+ 
 }           
 
 h4{
@@ -39,8 +39,6 @@ main::before {
     z-index: 0;
     max-height: 22.5%;
 }
-
-
 
 .div_principal_main {
     position: relative;
