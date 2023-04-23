@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 p {
      color: rgb(2, 82, 85);
-     font-family: 'Gotham', sans-serif;
+     font-family: 'Gotham Book', sans-serif;
 }
 
 /* MOBILE */
@@ -65,6 +65,7 @@ form {
 label {
     position: relative;
     left: 4%;
+    font-family: 'Gotham Book', sans-serif;
 }
 
 input {
@@ -72,6 +73,7 @@ input {
     width: 90%;
     margin: 0px auto;
     margin-bottom: 10px;
+    border: solid 1px #000;
 }
 
 textarea {
@@ -79,6 +81,7 @@ textarea {
     margin: 0px auto;
     margin-bottom: 10px;
     resize: none;
+    border: solid 1px #000;
 }
 
 .boton_reset {
@@ -95,6 +98,9 @@ textarea {
     width: 200px;
     margin: 0px auto;
     margin-bottom: 20px;
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(0 ,157 ,218 ,50%);
 }
 
 /* DESKTOP */
