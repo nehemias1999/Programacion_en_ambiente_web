@@ -148,6 +148,7 @@ p{
 .elemento_obra_social {
     height: 200px;
     width: 400px;
+    position:relative;/**/
 }
 
 .articulo_obra_social {
@@ -155,6 +156,9 @@ p{
     min-height: 100%;
     display: flex;
     align-items: center;
+    position: absolute;/**/
+    left:-30px;/**/
+ 
 }
 
 .div_imagen_obra_social {
@@ -162,7 +166,15 @@ p{
     width: 150px;
     overflow: hidden;
     border-radius: 50%;
-    border: solid 1px #000;
+    border: solid 1px  rgb(2, 82, 85);
+  
+}
+
+.imagen_obra_social{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    clip-path: circle(50%);
 }
 
 .div_descripcion_obra_social {
@@ -216,6 +228,15 @@ p{
         height: 470px;
     }
 
+    .imagen_obra_social {
+        transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+        z-index: 4;
+    }
+      
+    .div_imagen_obra_social:hover .imagen_obra_social {
+        transform: scale(1.4);
+    }
+      
     .boton_solicitar_turno{
         top: 150px;
         right: 90px;
